@@ -220,6 +220,7 @@ ip addr show # List IP addresses and network interfaces.
 ip address add [IP_address] # Assign an IP address to interface eth0.
 ifconfig # Display IP addresses of all network interfaces.
 ping [remote_host] # Ping remote host.
+ping [remote_host] # Ping remote host.
 netstat -pnltu # See active (listening) ports with the netstat command.
 netstat -tuln # Show TCP and UDP ports and their programs.
 whois [domain_name] # Display more information about a domain.
