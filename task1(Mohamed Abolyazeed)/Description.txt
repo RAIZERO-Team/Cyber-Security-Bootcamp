@@ -1,0 +1,24 @@
+----------------------------------------------------
+
+Step 1: Create a new user The first step is to create a new user account on the system. This is done using the adduser command with superuser privileges. The command sudo adduser mohamed creates a new user named "mohamed" with a default home directory and other settings.
+
+Step 2: Restart and login with the new user After creating the new user, it's necessary to restart the system to apply the changes. Once the system has restarted, login with the new user "mohamed" to start a new session. This allows you to test the new user account and ensure it's working correctly.
+
+Step 3: Switch to the kali user (not necessary in this scenario) This step is not necessary in this scenario, as we are already working with the new user "mohamed". The su command is used to switch to a different user, but in this case, we don't need to switch to the "kali" user.
+
+Step 4: Add the new user to the sudo group To give the new user "mohamed" administrative privileges, we need to add them to the "sudo" group. This is done using the command sudo adduser mohamed sudo. This allows the user "mohamed" to execute commands with superuser privileges using the sudo command.
+
+Step 5: Switch to the new user To test the new user's privileges, switch to the new user "mohamed" using the command su - mohamed. This allows you to verify that the user has been added to the "sudo" group correctly.
+
+Step 6: Upgrade the system To ensure the system is up-to-date, use the command sudo apt upgrade to upgrade all packages to the latest version. This is a good practice to ensure the system has the latest security patches and features.
+
+Step 7: Switch to the root user To perform administrative tasks, switch to the root user using the command su - root. This gives you full control over the system, allowing you to make changes to the system configuration.
+
+Step 8: Edit the sudoers file To edit the sudoers file, use the command sudo visudo. This opens the sudoers file in a text editor, allowing you to make changes to the sudo configuration.
+
+Step 9: Add the new user to the sudoers file To grant the new user "mohamed" full sudo privileges, add the following line to the sudoers file: mohamed ALL=(ALL:ALL) ALL. This specifies that the user "mohamed" can execute commands as any user, on any host, with any command.
+
+
+
+
+
