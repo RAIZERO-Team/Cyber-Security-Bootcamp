@@ -1,0 +1,1424 @@
+# Nmap 7.94SVN scan initiated Mon Sep  2 19:24:34 2024 as: nmap -sT -iL all_data.txt -oN output_all_data.txt
+Failed to resolve "=====".
+Failed to resolve "domains".
+Failed to resolve "=====".
+Failed to resolve "expedia.group".
+Failed to resolve "=====".
+Failed to resolve "email_addresses".
+Failed to resolve "=====".
+Failed to resolve "domains@expedia.com".
+Failed to resolve "admin@internationaladmin.com".
+Failed to resolve "oss@expediagroup.com".
+Failed to resolve "tocopyrightcomplaints@expediagroup.com".
+Failed to resolve "trademarkcomplaints@expediagroup.com".
+Failed to resolve "attrademarkcomplaints@expediagroup.com".
+Failed to resolve "@expediagroup.com".
+Failed to resolve "jimccoy@expediagroup.com".
+Failed to resolve "tgregoire@expediagroup.com".
+Failed to resolve "maniksharma@expediagroup.com".
+Failed to resolve "glebiller@expediagroup.com".
+Failed to resolve "jcarse@expediagroup.com".
+Failed to resolve "v-vthangaswamy@expediagroup.com".
+Failed to resolve "oss@expediagroup.com".
+Failed to resolve "dgorst@expediagroup.com".
+Failed to resolve "=====".
+Failed to resolve "social_media".
+Failed to resolve "=====".
+Unable to split netmask from target expression: "https://www.linkedin.com/company/expedia/?originalSubdomain=eg"
+Unable to split netmask from target expression: "https://www.instagram.com/expediagroup/"
+Unable to split netmask from target expression: "https://www.facebook.com/expedia"
+Unable to split netmask from target expression: "https://x.com/ExpediaGroup"
+Unable to split netmask from target expression: "https://github.com/ExpediaGroup"
+Failed to resolve "=====".
+Failed to resolve "comments".
+Failed to resolve "=====".
+Failed to resolve "501-1000".
+Failed to resolve "employe".
+Failed to resolve "cloud".
+Failed to resolve "base".
+Failed to resolve "=====".
+Failed to resolve "addresses".
+Failed to resolve "=====".
+Failed to resolve "Seattle".
+Failed to resolve "Washington".
+Failed to resolve "United".
+Failed to resolve "States".
+Failed to resolve "Brazil".
+Failed to resolve "=====".
+Failed to resolve "system_numbers".
+Failed to resolve "=====".
+Failed to resolve "AS13335".
+Failed to resolve "AS14618".
+Failed to resolve "AS15169".
+Failed to resolve "AS16509".
+Failed to resolve "AS16625".
+Failed to resolve "AS209242".
+Failed to resolve "AS20940".
+Failed to resolve "AS22612".
+Failed to resolve "AS23352".
+Failed to resolve "AS26347".
+Failed to resolve "AS36351".
+Failed to resolve "AS37153".
+Failed to resolve "AS396982".
+Failed to resolve "AS40021".
+Failed to resolve "AS46606".
+Failed to resolve "AS47583".
+Failed to resolve "AS51167".
+Failed to resolve "AS58683".
+Failed to resolve "AS60068".
+Failed to resolve "AS62563".
+Failed to resolve "AS8560".
+Failed to resolve "=====".
+Failed to resolve "phone_numbers".
+Failed to resolve "=====".
+Failed to resolve "+1".
+Failed to resolve "+1".
+Failed to resolve "+1".
+Failed to resolve "=====".
+Failed to resolve "name_servers".
+Failed to resolve "=====".
+Failed to resolve "=====".
+Failed to resolve "ipv4_addresses".
+Failed to resolve "=====".
+Failed to resolve "=====".
+Failed to resolve "ipv6_addresses".
+Failed to resolve "=====".
+2600:9000:223c:2600:1e:9f9d:5280:93a1 looks like an IPv6 target specification -- you have to use the -6 option.
+2606:4700:20::ac43:486d looks like an IPv6 target specification -- you have to use the -6 option.
+2606:4700:3031::ac43:cf99 looks like an IPv6 target specification -- you have to use the -6 option.
+2620:127:f00f:3:: looks like an IPv6 target specification -- you have to use the -6 option.
+2a00:1450:4001:80e::2013 looks like an IPv6 target specification -- you have to use the -6 option.
+2a02:4780:32:7e76:6e1e:1cd0:5039:33d looks like an IPv6 target specification -- you have to use the -6 option.
+2a02:4780:33:a45b:4cf3:6ba9:2565:bfe9 looks like an IPv6 target specification -- you have to use the -6 option.
+2a02:4780:84:d0ae:8200:5f6d:6041:1acc looks like an IPv6 target specification -- you have to use the -6 option.
+2a06:98c1:3120::3 looks like an IPv6 target specification -- you have to use the -6 option.
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for expedia.com (2.21.215.31)
+Host is up (0.18s latency).
+rDNS record for 2.21.215.31: a2-21-215-31.deploy.static.akamaitechnologies.com
+Not shown: 859 filtered tcp ports (no-response), 4 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 134 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for internationaladmin.com (204.74.99.103)
+Host is up (0.0046s latency).
+Not shown: 686 filtered tcp ports (no-response), 313 closed tcp ports (conn-refused)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for expediagroup.com (162.159.129.11)
+Host is up (0.0046s latency).
+Not shown: 681 filtered tcp ports (no-response), 315 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for careers.expediagroup.com (162.240.6.27)
+Host is up (0.0043s latency).
+rDNS record for 162.240.6.27: 5307030.lifeatexpediagroup.com
+Not shown: 735 filtered tcp ports (no-response), 255 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+110/tcp open  pop3
+143/tcp open  imap
+443/tcp open  https
+465/tcp open  smtps
+587/tcp open  submission
+993/tcp open  imaps
+995/tcp open  pop3s
+
+Nmap scan report for opensource.expediagroup.com (185.199.111.153)
+Host is up (0.12s latency).
+Other addresses for opensource.expediagroup.com (not scanned): 185.199.109.153 185.199.108.153 185.199.110.153 2606:50c0:8003::153 2606:50c0:8002::153 2606:50c0:8001::153 2606:50c0:8000::153
+rDNS record for 185.199.111.153: cdn-185-199-111-153.github.com
+Not shown: 858 filtered tcp ports (no-response), 8 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 131 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for careers.expediagroup.com (162.240.6.27)
+Host is up (0.37s latency).
+rDNS record for 162.240.6.27: 5307030.lifeatexpediagroup.com
+Not shown: 821 filtered tcp ports (no-response), 2 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 166 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+110/tcp open  pop3
+143/tcp open  imap
+443/tcp open  https
+465/tcp open  smtps
+587/tcp open  submission
+993/tcp open  imaps
+995/tcp open  pop3s
+
+Nmap scan report for status.developers.expediagroup.com (108.159.102.69)
+Host is up (0.059s latency).
+Other addresses for status.developers.expediagroup.com (not scanned): 108.159.102.71 108.159.102.79 108.159.102.127
+rDNS record for 108.159.102.69: server-108-159-102-69.cai50.r.cloudfront.net
+Not shown: 835 filtered tcp ports (no-response), 5 filtered tcp ports (host-unreach), 158 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for careers.expediagroup.com (162.240.6.27)
+Host is up (0.28s latency).
+rDNS record for 162.240.6.27: 5307030.lifeatexpediagroup.com
+Not shown: 836 filtered tcp ports (no-response), 3 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 149 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+26/tcp  open  rsftp
+53/tcp  open  domain
+80/tcp  open  http
+110/tcp open  pop3
+143/tcp open  imap
+443/tcp open  https
+465/tcp open  smtps
+587/tcp open  submission
+993/tcp open  imaps
+995/tcp open  pop3s
+
+Nmap scan report for legal.expediagroup.com (35.165.19.192)
+Host is up (0.0057s latency).
+Other addresses for legal.expediagroup.com (not scanned): 34.209.203.238 34.210.141.33 54.190.164.54
+rDNS record for 35.165.19.192: ec2-35-165-19-192.us-west-2.compute.amazonaws.com
+Not shown: 653 filtered tcp ports (no-response), 345 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for legal.expediagroup.com (35.165.19.192)
+Host is up (0.27s latency).
+Other addresses for legal.expediagroup.com (not scanned): 34.209.203.238 34.210.141.33 54.190.164.54
+rDNS record for 35.165.19.192: ec2-35-165-19-192.us-west-2.compute.amazonaws.com
+Not shown: 841 filtered tcp ports (no-response), 6 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 150 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for careers.expediagroup.com (162.240.6.27)
+Host is up (0.0042s latency).
+rDNS record for 162.240.6.27: 5307030.lifeatexpediagroup.com
+Not shown: 722 filtered tcp ports (no-response), 268 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+110/tcp open  pop3
+143/tcp open  imap
+443/tcp open  https
+465/tcp open  smtps
+587/tcp open  submission
+993/tcp open  imaps
+995/tcp open  pop3s
+
+Nmap scan report for brand.expediagroup.com (3.23.74.212)
+Host is up (0.0053s latency).
+Other addresses for brand.expediagroup.com (not scanned): 3.138.146.186 3.12.21.175 2600:1f16:b2f:b00:866b:6d58:786b:7052 2600:1f16:b2f:b01:7ba:fd37:2880:888b 2600:1f16:b2f:b02:3f65:b9b8:596d:49d2
+rDNS record for 3.23.74.212: ec2-3-23-74-212.us-east-2.compute.amazonaws.com
+Not shown: 643 filtered tcp ports (no-response), 356 closed tcp ports (conn-refused)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for partner.expediagroup.com (108.159.120.84)
+Host is up (0.0057s latency).
+Other addresses for partner.expediagroup.com (not scanned): 108.159.120.104 108.159.120.66 108.159.120.118 2600:9000:27f0:3600:1e:9f9d:5280:93a1 2600:9000:27f0:b200:1e:9f9d:5280:93a1 2600:9000:27f0:c400:1e:9f9d:5280:93a1 2600:9000:27f0:5a00:1e:9f9d:5280:93a1 2600:9000:27f0:4a00:1e:9f9d:5280:93a1 2600:9000:27f0:ec00:1e:9f9d:5280:93a1 2600:9000:27f0:8600:1e:9f9d:5280:93a1 2600:9000:27f0:9000:1e:9f9d:5280:93a1
+rDNS record for 108.159.120.84: server-108-159-120-84.cai50.r.cloudfront.net
+Not shown: 658 filtered tcp ports (no-response), 340 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for partner.expediagroup.com (108.159.120.84)
+Host is up (0.0047s latency).
+Other addresses for partner.expediagroup.com (not scanned): 108.159.120.104 108.159.120.66 108.159.120.118 2600:9000:27f0:3600:1e:9f9d:5280:93a1 2600:9000:27f0:b200:1e:9f9d:5280:93a1 2600:9000:27f0:c400:1e:9f9d:5280:93a1 2600:9000:27f0:5a00:1e:9f9d:5280:93a1 2600:9000:27f0:4a00:1e:9f9d:5280:93a1 2600:9000:27f0:ec00:1e:9f9d:5280:93a1 2600:9000:27f0:8600:1e:9f9d:5280:93a1 2600:9000:27f0:9000:1e:9f9d:5280:93a1
+rDNS record for 108.159.120.84: server-108-159-120-84.cai50.r.cloudfront.net
+Not shown: 719 filtered tcp ports (no-response), 279 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for lifeatexpediagroup.com (162.240.6.108)
+Host is up (0.59s latency).
+rDNS record for 162.240.6.108: 5307030.lifeatexpediagroup.com
+Not shown: 589 filtered tcp ports (no-response), 402 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+110/tcp open  pop3
+143/tcp open  imap
+443/tcp open  https
+587/tcp open  submission
+993/tcp open  imaps
+995/tcp open  pop3s
+
+Nmap scan report for legal.expediagroup.com (35.165.19.192)
+Host is up (0.28s latency).
+Other addresses for legal.expediagroup.com (not scanned): 34.209.203.238 34.210.141.33 54.190.164.54
+rDNS record for 35.165.19.192: ec2-35-165-19-192.us-west-2.compute.amazonaws.com
+Not shown: 727 filtered tcp ports (no-response), 132 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 138 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for ir.expediagroup.com (162.159.130.11)
+Host is up (0.0043s latency).
+Other addresses for ir.expediagroup.com (not scanned): 162.159.129.11 2606:4700:7::a29f:810b 2606:4700:7::a29f:820b
+Not shown: 639 filtered tcp ports (no-response), 357 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for partner.expediagroup.com (108.159.120.84)
+Host is up (0.0040s latency).
+Other addresses for partner.expediagroup.com (not scanned): 108.159.120.104 108.159.120.66 108.159.120.118 2600:9000:27f0:3600:1e:9f9d:5280:93a1 2600:9000:27f0:b200:1e:9f9d:5280:93a1 2600:9000:27f0:c400:1e:9f9d:5280:93a1 2600:9000:27f0:5a00:1e:9f9d:5280:93a1 2600:9000:27f0:4a00:1e:9f9d:5280:93a1 2600:9000:27f0:ec00:1e:9f9d:5280:93a1 2600:9000:27f0:8600:1e:9f9d:5280:93a1 2600:9000:27f0:9000:1e:9f9d:5280:93a1
+rDNS record for 108.159.120.84: server-108-159-120-84.cai50.r.cloudfront.net
+Not shown: 649 filtered tcp ports (no-response), 349 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for welcome.expediagroup.com (108.159.120.66)
+Host is up (0.0052s latency).
+Other addresses for welcome.expediagroup.com (not scanned): 108.159.120.118 108.159.120.84 108.159.120.104 2600:9000:27f0:b200:1e:9f9d:5280:93a1 2600:9000:27f0:c400:1e:9f9d:5280:93a1 2600:9000:27f0:5a00:1e:9f9d:5280:93a1 2600:9000:27f0:4a00:1e:9f9d:5280:93a1 2600:9000:27f0:ec00:1e:9f9d:5280:93a1 2600:9000:27f0:8600:1e:9f9d:5280:93a1 2600:9000:27f0:9000:1e:9f9d:5280:93a1 2600:9000:27f0:3600:1e:9f9d:5280:93a1
+rDNS record for 108.159.120.66: server-108-159-120-66.cai50.r.cloudfront.net
+Not shown: 633 filtered tcp ports (no-response), 365 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for adsportal.expediagroup.com (92.123.236.73)
+Host is up (0.13s latency).
+Other addresses for adsportal.expediagroup.com (not scanned): 92.123.236.81
+rDNS record for 92.123.236.73: a92-123-236-73.deploy.static.akamaitechnologies.com
+Not shown: 833 filtered tcp ports (no-response), 3 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 161 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for agentforms.expediagroup.com (18.102.214.68)
+Host is up (0.13s latency).
+Other addresses for agentforms.expediagroup.com (not scanned): 18.102.214.69 18.102.214.67
+rDNS record for 18.102.214.68: ec2-18-102-214-68.eu-south-1.compute.amazonaws.com
+Not shown: 837 filtered tcp ports (no-response), 7 filtered tcp ports (host-unreach), 153 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8443/tcp open  https-alt
+
+Nmap scan report for apis.expediagroup.com (23.200.212.221)
+Host is up (0.0054s latency).
+rDNS record for 23.200.212.221: a23-200-212-221.deploy.static.akamaitechnologies.com
+Not shown: 708 filtered tcp ports (no-response), 290 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for developers.expediagroup.com (104.83.119.131)
+Host is up (0.0052s latency).
+rDNS record for 104.83.119.131: a104-83-119-131.deploy.static.akamaitechnologies.com
+Not shown: 640 filtered tcp ports (no-response), 358 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for travelerforms.expediagroup.com (18.102.214.69)
+Host is up (0.094s latency).
+Other addresses for travelerforms.expediagroup.com (not scanned): 18.102.214.67 18.102.214.68
+rDNS record for 18.102.214.69: ec2-18-102-214-69.eu-south-1.compute.amazonaws.com
+Not shown: 867 filtered tcp ports (no-response), 2 filtered tcp ports (host-unreach), 128 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8443/tcp open  https-alt
+
+Nmap scan report for test.apis.expediagroup.com (23.200.212.221)
+Host is up (0.12s latency).
+rDNS record for 23.200.212.221: a23-200-212-221.deploy.static.akamaitechnologies.com
+Not shown: 828 filtered tcp ports (no-response), 2 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 167 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for travelerformsint.expediagroup.com (18.102.214.67)
+Host is up (0.100s latency).
+Other addresses for travelerformsint.expediagroup.com (not scanned): 18.102.214.68 18.102.214.69
+rDNS record for 18.102.214.67: ec2-18-102-214-67.eu-south-1.compute.amazonaws.com
+Not shown: 832 filtered tcp ports (no-response), 4 filtered tcp ports (host-unreach), 161 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8443/tcp open  https-alt
+
+Nmap scan report for affiliates.expediagroup.com (104.83.119.131)
+Host is up (0.16s latency).
+rDNS record for 104.83.119.131: a104-83-119-131.deploy.static.akamaitechnologies.com
+Not shown: 860 filtered tcp ports (no-response), 2 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 135 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for expediagroup.com (162.159.129.11)
+Host is up (0.11s latency).
+Not shown: 853 filtered tcp ports (no-response), 4 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 138 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for www.linkedin.com (13.107.42.14)
+Host is up (0.072s latency).
+Other addresses for www.linkedin.com (not scanned): 2620:1ec:21::14
+Not shown: 909 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach), 1 filtered tcp ports (host-unreach), 87 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for www.instagram.com (102.132.103.174)
+Host is up (0.0040s latency).
+Other addresses for www.instagram.com (not scanned): 2a03:2880:f23b:1e6:face:b00c:0:4420
+rDNS record for 102.132.103.174: instagram-p42-shv-02-hbe1.fbcdn.net
+Not shown: 634 filtered tcp ports (no-response), 364 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for www.facebook.com (102.132.103.35)
+Host is up (0.29s latency).
+Other addresses for www.facebook.com (not scanned): 2a03:2880:f13b:18a:face:b00c:0:25de
+rDNS record for 102.132.103.35: edge-star-mini-shv-02-hbe1.facebook.com
+Not shown: 829 filtered tcp ports (no-response), 5 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 163 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for github.com (140.82.121.3)
+Host is up (0.0039s latency).
+rDNS record for 140.82.121.3: lb-140-82-121-3-fra.github.com
+Not shown: 719 filtered tcp ports (no-response), 278 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 162.159.129.11
+Host is up (0.21s latency).
+Not shown: 841 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach), 1 filtered tcp ports (host-unreach), 153 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for ec2-100-20-6-207.us-west-2.compute.amazonaws.com (100.20.6.207)
+Host is up (0.26s latency).
+Not shown: 856 filtered tcp ports (no-response), 2 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 140 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for ec2-100-28-142-53.compute-1.amazonaws.com (100.28.142.53)
+Host is up (0.0044s latency).
+Not shown: 609 filtered tcp ports (no-response), 387 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+993/tcp open  imaps
+995/tcp open  pop3s
+
+Nmap scan report for a104-100-168-192.deploy.static.akamaitechnologies.com (104.100.168.192)
+Host is up (0.24s latency).
+Not shown: 836 filtered tcp ports (no-response), 2 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 159 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for a104-100-168-240.deploy.static.akamaitechnologies.com (104.100.168.240)
+Host is up (0.59s latency).
+Not shown: 722 filtered tcp ports (no-response), 122 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 153 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 104.16.92.80
+Host is up (0.0043s latency).
+Not shown: 625 filtered tcp ports (no-response), 371 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for 104.16.93.80
+Host is up (0.0048s latency).
+Not shown: 615 filtered tcp ports (no-response), 381 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for 104.16.94.80
+Host is up (0.0039s latency).
+Not shown: 652 filtered tcp ports (no-response), 344 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for 104.16.95.80
+Host is up (0.0046s latency).
+Not shown: 703 filtered tcp ports (no-response), 293 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for 104.16.96.80
+Host is up (0.0041s latency).
+Not shown: 651 filtered tcp ports (no-response), 345 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for 104.17.27.170
+Host is up (0.0043s latency).
+Not shown: 681 filtered tcp ports (no-response), 315 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for 104.17.28.170
+Host is up (0.0045s latency).
+Not shown: 642 filtered tcp ports (no-response), 354 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for 104.17.29.170
+Host is up (0.092s latency).
+Not shown: 865 filtered tcp ports (no-response), 5 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 125 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for 104.17.31.170
+Host is up (0.094s latency).
+Not shown: 858 filtered tcp ports (no-response), 2 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 135 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for 104.17.70.206
+Host is up (0.095s latency).
+Not shown: 852 filtered tcp ports (no-response), 12 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 131 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for 104.17.71.206
+Host is up (1.0s latency).
+Not shown: 787 filtered tcp ports (no-response), 65 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 143 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for 104.17.72.206
+Host is up (0.84s latency).
+Not shown: 703 filtered tcp ports (no-response), 143 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 149 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for 104.17.73.206
+Host is up (0.0041s latency).
+Not shown: 676 filtered tcp ports (no-response), 320 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for 104.17.74.206
+Host is up (0.0040s latency).
+Not shown: 644 filtered tcp ports (no-response), 352 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for a104-71-212-193.deploy.static.akamaitechnologies.com (104.71.212.193)
+Host is up (0.0039s latency).
+Not shown: 663 filtered tcp ports (no-response), 335 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for a104-90-243-27.deploy.static.akamaitechnologies.com (104.90.243.27)
+Host is up (0.0043s latency).
+Not shown: 667 filtered tcp ports (no-response), 331 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for a104-92-252-159.deploy.static.akamaitechnologies.com (104.92.252.159)
+Host is up (0.0053s latency).
+Not shown: 680 filtered tcp ports (no-response), 318 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for a104-97-44-193.deploy.static.akamaitechnologies.com (104.97.44.193)
+Host is up (0.0055s latency).
+Not shown: 651 filtered tcp ports (no-response), 347 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for au4.ausreg.net (119.9.27.27)
+Host is up (0.0097s latency).
+Not shown: 833 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach), 1 filtered tcp ports (host-unreach), 162 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for view.s12.exacttarget.com (13.110.200.1)
+Host is up (0.21s latency).
+Not shown: 877 filtered tcp ports (no-response), 11 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 109 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for sledge2-ph2.slb.sfdcsvc.net (13.110.52.10)
+Host is up (0.23s latency).
+Not shown: 783 filtered tcp ports (no-response), 108 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 105 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8443/tcp open  https-alt
+
+Nmap scan report for sledge3-ph2.slb.sfdcsvc.net (13.110.52.11)
+Host is up (0.39s latency).
+Not shown: 714 filtered tcp ports (no-response), 144 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 138 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8443/tcp open  https-alt
+
+Nmap scan report for sledge1-ph2.slb.sfdcsvc.net (13.110.52.9)
+Host is up (0.0054s latency).
+Not shown: 619 filtered tcp ports (no-response), 378 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8443/tcp open  https-alt
+
+Nmap scan report for a9dcaea81ce6d4aa6.awsglobalaccelerator.com (13.248.236.251)
+Host is up (1.9s latency).
+Not shown: 842 filtered tcp ports (no-response), 3 filtered tcp ports (host-unreach), 1 filtered tcp ports (net-unreach), 152 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for a556120ce37110a35.awsglobalaccelerator.com (13.248.244.122)
+Host is up (0.14s latency).
+Not shown: 861 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach), 136 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for a9d4dea8e2661b2ed.awsglobalaccelerator.com (15.197.151.86)
+Host is up (0.0042s latency).
+Not shown: 679 filtered tcp ports (no-response), 319 closed tcp ports (conn-refused)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for hs20.name.tools (150.239.200.100)
+Host is up (0.0042s latency).
+Not shown: 634 filtered tcp ports (no-response), 356 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+80/tcp   open  http
+110/tcp  open  pop3
+143/tcp  open  imap
+443/tcp  open  https
+587/tcp  open  submission
+993/tcp  open  imaps
+995/tcp  open  pop3s
+8888/tcp open  sun-answerbook
+
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for theta.epicdns.co.uk (158.220.108.219)
+Host is up (0.11s latency).
+Not shown: 700 filtered tcp ports (no-response), 288 filtered tcp ports (net-unreach), 1 filtered tcp ports (host-unreach)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+53/tcp   open  domain
+80/tcp   open  http
+111/tcp  open  rpcbind
+143/tcp  open  imap
+443/tcp  open  https
+587/tcp  open  submission
+993/tcp  open  imaps
+995/tcp  open  pop3s
+3306/tcp open  mysql
+
+Nmap scan report for west.infinus.ca (158.51.123.142)
+Host is up (0.000016s latency).
+Not shown: 701 filtered tcp ports (no-response), 288 filtered tcp ports (net-unreach), 2 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+110/tcp open  pop3
+143/tcp open  imap
+443/tcp open  https
+587/tcp open  submission
+993/tcp open  imaps
+995/tcp open  pop3s
+
+Nmap scan report for 30.0.153.160.host.secureserver.net (160.153.0.30)
+Host is up (0.000018s latency).
+Not shown: 611 filtered tcp ports (net-unreach), 387 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+443/tcp  open  https
+8080/tcp open  http-proxy
+
+Nmap scan report for premium701-1.web-hosting.com (162.0.217.178)
+Host is up (0.000011s latency).
+Not shown: 579 filtered tcp ports (net-unreach), 413 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+21/tcp  open  ftp
+53/tcp  open  domain
+80/tcp  open  http
+110/tcp open  pop3
+143/tcp open  imap
+443/tcp open  https
+587/tcp open  submission
+995/tcp open  pop3s
+
+Nmap scan report for 162.159.129.11
+Host is up (0.36s latency).
+Not shown: 575 filtered tcp ports (net-unreach), 424 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for 162.159.130.11
+Host is up (0.000013s latency).
+Not shown: 606 filtered tcp ports (net-unreach), 391 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+
+Nmap scan report for 5307030.lifeatexpediagroup.com (162.240.6.27)
+Host is up (0.23s latency).
+Not shown: 844 filtered tcp ports (no-response), 145 filtered tcp ports (net-unreach), 1 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+26/tcp  open  rsftp
+53/tcp  open  domain
+80/tcp  open  http
+110/tcp open  pop3
+143/tcp open  imap
+443/tcp open  https
+587/tcp open  submission
+993/tcp open  imaps
+995/tcp open  pop3s
+
+Nmap scan report for 169-150-247-36.bunnyinfra.net (169.150.247.36)
+Host is up (2.3s latency).
+Not shown: 624 filtered tcp ports (no-response), 213 filtered tcp ports (host-unreach), 46 filtered tcp ports (net-unreach), 100 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+6000/tcp open  X11
+6001/tcp open  X11:1
+6002/tcp open  X11:2
+6003/tcp open  X11:3
+6004/tcp open  X11:4
+6007/tcp open  X11:7
+6009/tcp open  X11:9
+7000/tcp open  afs3-fileserver
+7004/tcp open  afs3-kaserver
+7007/tcp open  afs3-bos
+8082/tcp open  blackice-alerts
+8084/tcp open  websnp
+8100/tcp open  xprint-server
+8180/tcp open  unknown
+
+Nmap scan report for 169-150-247-37.bunnyinfra.net (169.150.247.37)
+Host is up (2.7s latency).
+Not shown: 806 closed tcp ports (conn-refused), 145 filtered tcp ports (net-unreach), 21 filtered tcp ports (host-unreach), 7 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+1935/tcp open  rtmp
+6000/tcp open  X11
+6001/tcp open  X11:1
+6002/tcp open  X11:2
+6003/tcp open  X11:3
+6004/tcp open  X11:4
+6006/tcp open  X11:6
+6007/tcp open  X11:7
+7000/tcp open  afs3-fileserver
+7001/tcp open  afs3-callback
+7002/tcp open  afs3-prserver
+7004/tcp open  afs3-kaserver
+7007/tcp open  afs3-bos
+7019/tcp open  doceri-ctl
+8085/tcp open  unknown
+8100/tcp open  xprint-server
+8180/tcp open  unknown
+8181/tcp open  intermapper
+
+Nmap scan report for 169-150-247-39.bunnyinfra.net (169.150.247.39)
+Host is up (0.11s latency).
+Not shown: 694 filtered tcp ports (no-response), 288 filtered tcp ports (net-unreach), 7 filtered tcp ports (host-unreach)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+6005/tcp open  X11:5
+6007/tcp open  X11:7
+7002/tcp open  afs3-prserver
+7019/tcp open  doceri-ctl
+8082/tcp open  blackice-alerts
+8100/tcp open  xprint-server
+8180/tcp open  unknown
+8181/tcp open  intermapper
+
+Nmap scan report for apache2-noxim.iad1-shared-b8-03.dreamhost.com (173.236.241.158)
+Host is up (0.040s latency).
+Not shown: 706 filtered tcp ports (no-response), 288 filtered tcp ports (net-unreach), 1 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+587/tcp open  submission
+
+Nmap scan report for apache2-kant.iad1-shared-b8-38.dreamhost.com (173.236.255.41)
+Host is up (0.000024s latency).
+Not shown: 558 filtered tcp ports (net-unreach), 436 filtered tcp ports (no-response), 1 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+587/tcp open  submission
+
+Nmap scan report for ec2-18-217-131-102.us-east-2.compute.amazonaws.com (18.217.131.102)
+Host is up (0.000019s latency).
+Not shown: 608 filtered tcp ports (net-unreach), 391 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for a184-31-16-240.deploy.static.akamaitechnologies.com (184.31.16.240)
+Host is up (0.000017s latency).
+All 1000 scanned ports on a184-31-16-240.deploy.static.akamaitechnologies.com (184.31.16.240) are in ignored states.
+Not shown: 625 filtered tcp ports (net-unreach), 375 filtered tcp ports (no-response)
+
+Nmap scan report for cdn-185-199-108-153.github.com (185.199.108.153)
+Host is up (0.085s latency).
+Not shown: 708 filtered tcp ports (no-response), 288 filtered tcp ports (net-unreach), 2 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for cdn-185-199-109-153.github.com (185.199.109.153)
+Host is up (0.087s latency).
+Not shown: 709 filtered tcp ports (no-response), 288 filtered tcp ports (net-unreach), 1 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for cdn-185-199-110-153.github.com (185.199.110.153)
+Host is up (0.000011s latency).
+Not shown: 580 filtered tcp ports (net-unreach), 418 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for cdn-185-199-111-153.github.com (185.199.111.153)
+Host is up (0.082s latency).
+Not shown: 852 filtered tcp ports (no-response), 145 filtered tcp ports (net-unreach), 1 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 188.114.96.3
+Host is up (0.000013s latency).
+Not shown: 595 filtered tcp ports (net-unreach), 402 filtered tcp ports (no-response), 1 filtered tcp ports (host-unreach)
+PORT     STATE SERVICE
+80/tcp   open  http
+8080/tcp open  http-proxy
+
+Nmap scan report for 188.114.97.3
+Host is up (0.000023s latency).
+Not shown: 628 filtered tcp ports (net-unreach), 370 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+80/tcp   open  http
+8080/tcp open  http-proxy
+
+Nmap scan report for unalocated.163.wixsite.com (199.15.163.128)
+Host is up (0.000011s latency).
+Not shown: 574 filtered tcp ports (net-unreach), 425 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for unalocated.163.wixsite.com (199.15.163.138)
+Host is up (0.000017s latency).
+Not shown: 637 filtered tcp ports (net-unreach), 361 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for unalocated.163.wixsite.com (199.15.163.148)
+Host is up (0.10s latency).
+Not shown: 710 filtered tcp ports (no-response), 288 filtered tcp ports (net-unreach)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for a2-19-216-224.deploy.static.akamaitechnologies.com (2.19.216.224)
+Host is up (0.000015s latency).
+Not shown: 576 filtered tcp ports (net-unreach), 421 filtered tcp ports (no-response), 1 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for a2-23-209-133.deploy.static.akamaitechnologies.com (2.23.209.133)
+Host is up (0.000013s latency).
+Not shown: 617 filtered tcp ports (net-unreach), 381 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for server-204-246-191-102.hio50.r.cloudfront.net (204.246.191.102)
+Host is up (0.000011s latency).
+All 1000 scanned ports on server-204-246-191-102.hio50.r.cloudfront.net (204.246.191.102) are in ignored states.
+Not shown: 599 filtered tcp ports (net-unreach), 400 filtered tcp ports (no-response), 1 filtered tcp ports (host-unreach)
+
+Nmap scan report for server-204-246-191-104.hio50.r.cloudfront.net (204.246.191.104)
+Host is up (0.000020s latency).
+Not shown: 614 filtered tcp ports (net-unreach), 384 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for server-204-246-191-11.hio50.r.cloudfront.net (204.246.191.11)
+Host is up (0.000018s latency).
+Not shown: 605 filtered tcp ports (net-unreach), 393 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for server-204-246-191-14.hio50.r.cloudfront.net (204.246.191.14)
+Host is up (0.73s latency).
+Not shown: 853 filtered tcp ports (no-response), 145 filtered tcp ports (net-unreach)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for server-204-246-191-28.hio50.r.cloudfront.net (204.246.191.28)
+Host is up (0.000015s latency).
+Not shown: 595 filtered tcp ports (net-unreach), 404 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for server-204-246-191-32.hio50.r.cloudfront.net (204.246.191.32)
+Host is up (0.000018s latency).
+Not shown: 634 filtered tcp ports (net-unreach), 363 filtered tcp ports (no-response), 1 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for server-204-246-191-49.hio50.r.cloudfront.net (204.246.191.49)
+Host is up (0.000023s latency).
+Not shown: 644 filtered tcp ports (net-unreach), 354 filtered tcp ports (no-response), 1 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for server-204-246-191-91.hio50.r.cloudfront.net (204.246.191.91)
+Host is up (0.19s latency).
+Not shown: 575 filtered tcp ports (net-unreach), 423 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 204.74.99.101
+Host is up (0.000011s latency).
+Not shown: 569 filtered tcp ports (net-unreach), 430 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for bh8952.banahosting.com (216.246.46.202)
+Host is up (1.1s latency).
+Not shown: 575 filtered tcp ports (net-unreach), 415 filtered tcp ports (no-response), 1 filtered tcp ports (host-unreach)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+53/tcp   open  domain
+80/tcp   open  http
+143/tcp  open  imap
+443/tcp  open  https
+993/tcp  open  imaps
+995/tcp  open  pop3s
+3306/tcp open  mysql
+8888/tcp open  sun-answerbook
+
+Nmap scan report for a23-192-230-132.deploy.static.akamaitechnologies.com (23.192.230.132)
+Host is up (0.000012s latency).
+Not shown: 603 filtered tcp ports (net-unreach), 395 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for a23-192-230-146.deploy.static.akamaitechnologies.com (23.192.230.146)
+Host is up (0.000011s latency).
+Not shown: 594 filtered tcp ports (net-unreach), 404 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for a23-195-229-16.deploy.static.akamaitechnologies.com (23.195.229.16)
+Host is up (0.000017s latency).
+Not shown: 627 filtered tcp ports (net-unreach), 371 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for a23-195-229-41.deploy.static.akamaitechnologies.com (23.195.229.41)
+Host is up (0.000015s latency).
+Not shown: 607 filtered tcp ports (net-unreach), 390 filtered tcp ports (no-response), 1 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for a23-197-101-8.deploy.static.akamaitechnologies.com (23.197.101.8)
+Host is up (0.000015s latency).
+Not shown: 585 filtered tcp ports (net-unreach), 413 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for a23-214-104-80.deploy.static.akamaitechnologies.com (23.214.104.80)
+Host is up (0.000016s latency).
+Not shown: 640 filtered tcp ports (net-unreach), 358 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for a23-216-80-192.deploy.static.akamaitechnologies.com (23.216.80.192)
+Host is up (0.000015s latency).
+Not shown: 651 filtered tcp ports (net-unreach), 346 filtered tcp ports (no-response), 1 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for a23-218-101-28.deploy.static.akamaitechnologies.com (23.218.101.28)
+Host is up (0.000011s latency).
+Not shown: 580 filtered tcp ports (net-unreach), 414 filtered tcp ports (no-response), 4 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for a23-220-132-198.deploy.static.akamaitechnologies.com (23.220.132.198)
+Host is up (0.000029s latency).
+Not shown: 676 filtered tcp ports (net-unreach), 321 filtered tcp ports (no-response), 1 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for a23-222-147-139.deploy.static.akamaitechnologies.com (23.222.147.139)
+Host is up (0.000012s latency).
+Not shown: 602 filtered tcp ports (net-unreach), 394 filtered tcp ports (no-response), 2 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for myshopify.com (23.227.38.32)
+Host is up (0.000020s latency).
+Not shown: 625 filtered tcp ports (net-unreach), 372 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+
+Nmap scan report for a23-37-49-182.deploy.static.akamaitechnologies.com (23.37.49.182)
+Host is up (0.000015s latency).
+Not shown: 614 filtered tcp ports (net-unreach), 384 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for a23-37-56-218.deploy.static.akamaitechnologies.com (23.37.56.218)
+Host is up (0.000018s latency).
+Not shown: 600 filtered tcp ports (net-unreach), 398 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for a23-55-167-17.deploy.static.akamaitechnologies.com (23.55.167.17)
+Host is up (0.000015s latency).
+Not shown: 587 filtered tcp ports (net-unreach), 411 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for a23-55-167-27.deploy.static.akamaitechnologies.com (23.55.167.27)
+Host is up (0.000019s latency).
+Not shown: 635 filtered tcp ports (net-unreach), 363 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for ec2-3-137-28-66.us-east-2.compute.amazonaws.com (3.137.28.66)
+Host is up (0.000015s latency).
+Not shown: 623 filtered tcp ports (net-unreach), 374 filtered tcp ports (no-response), 1 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for server-3-163-24-125.hio52.r.cloudfront.net (3.163.24.125)
+Host is up (0.000022s latency).
+Not shown: 663 filtered tcp ports (net-unreach), 334 filtered tcp ports (no-response), 1 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for server-3-163-24-26.hio52.r.cloudfront.net (3.163.24.26)
+Host is up (0.000014s latency).
+Not shown: 588 filtered tcp ports (net-unreach), 410 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for server-3-163-24-36.hio52.r.cloudfront.net (3.163.24.36)
+Host is up (0.000012s latency).
+Not shown: 600 filtered tcp ports (net-unreach), 398 filtered tcp ports (no-response), 1 filtered tcp ports (host-unreach)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for server-3-163-24-94.hio52.r.cloudfront.net (3.163.24.94)
+Host is up (0.000015s latency).
+Not shown: 645 filtered tcp ports (net-unreach), 352 filtered tcp ports (no-response), 1 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for a9d4dea8e2661b2ed.awsglobalaccelerator.com (3.33.152.248)
+Host is up (0.000017s latency).
+Not shown: 618 filtered tcp ports (net-unreach), 380 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 34.180.110.34.bc.googleusercontent.com (34.110.180.34)
+Host is up (0.000014s latency).
+Not shown: 626 filtered tcp ports (net-unreach), 372 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 42.83.127.34.bc.googleusercontent.com (34.127.83.42)
+Host is up (0.000021s latency).
+Not shown: 634 filtered tcp ports (net-unreach), 365 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for 45.87.149.34.bc.googleusercontent.com (34.149.87.45)
+Host is up (0.000012s latency).
+Not shown: 573 filtered tcp ports (net-unreach), 425 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 133.176.174.34.bc.googleusercontent.com (34.174.176.133)
+Host is up (0.027s latency).
+Not shown: 703 filtered tcp ports (no-response), 288 filtered tcp ports (net-unreach)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+80/tcp   open  http
+110/tcp  open  pop3
+143/tcp  open  imap
+443/tcp  open  https
+587/tcp  open  submission
+993/tcp  open  imaps
+995/tcp  open  pop3s
+3306/tcp open  mysql
+
+Nmap scan report for ec2-34-209-53-57.us-west-2.compute.amazonaws.com (34.209.53.57)
+Host is up (0.000011s latency).
+Not shown: 609 filtered tcp ports (net-unreach), 388 filtered tcp ports (no-response), 1 filtered tcp ports (host-unreach)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for ec2-34-209-88-55.us-west-2.compute.amazonaws.com (34.209.88.55)
+Host is up (0.000023s latency).
+Not shown: 615 filtered tcp ports (net-unreach), 384 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for ec2-34-211-108-45.us-west-2.compute.amazonaws.com (34.211.108.45)
+Host is up (0.000016s latency).
+Not shown: 663 filtered tcp ports (net-unreach), 335 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for ec2-34-211-108-46.us-west-2.compute.amazonaws.com (34.211.108.46)
+Host is up (0.000016s latency).
+Not shown: 623 filtered tcp ports (net-unreach), 375 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-09-03 04:13 EDT
+Stats: 0:08:38 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.28% done
+Stats: 0:08:39 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.28% done
+Stats: 0:09:35 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.31% done
+Stats: 0:09:36 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.31% done
+Stats: 0:10:52 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.36% done
+Stats: 0:11:50 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.39% done
+Stats: 0:11:51 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.39% done
+Stats: 0:11:51 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.39% done
+Stats: 0:11:51 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.40% done
+Stats: 0:11:52 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.40% done
+Debugging Increased to 1.
+Stats: 0:11:53 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.40% done
+Current sending rates: 2.63 packets / s, 92.18 bytes / s.
+Stats: 0:11:54 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.40% done
+Current sending rates: 2.46 packets / s, 78.20 bytes / s.
+Stats: 0:11:54 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.40% done
+Current sending rates: 2.46 packets / s, 73.65 bytes / s.
+Stats: 0:11:55 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.40% done
+Current sending rates: 2.02 packets / s, 63.37 bytes / s.
+Stats: 0:11:56 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.40% done
+Current sending rates: 2.02 packets / s, 59.69 bytes / s.
+Stats: 0:11:56 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.40% done
+Current sending rates: 1.70 packets / s, 63.96 bytes / s.
+Stats: 0:11:56 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.40% done
+Current sending rates: 1.86 packets / s, 68.16 bytes / s.
+Stats: 0:11:56 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.40% done
+Current sending rates: 2.03 packets / s, 74.62 bytes / s.
+Stats: 0:11:57 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.40% done
+Current sending rates: 2.19 packets / s, 69.14 bytes / s.
+Stats: 0:12:49 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.43% done
+Current sending rates: 1.21 packets / s, 62.56 bytes / s.
+Stats: 0:12:49 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.43% done
+Current sending rates: 1.43 packets / s, 86.44 bytes / s.
+Stats: 0:13:35 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.46% done
+Current sending rates: 1.00 packets / s, 57.18 bytes / s.
+Stats: 0:13:41 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.46% done
+Current sending rates: 1.80 packets / s, 58.80 bytes / s.
+Stats: 0:13:41 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.46% done
+Current sending rates: 1.80 packets / s, 52.26 bytes / s.
+Stats: 0:13:42 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.46% done
+Current sending rates: 1.44 packets / s, 46.26 bytes / s.
+Stats: 0:14:33 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.50% done
+Current sending rates: 1.41 packets / s, 57.57 bytes / s.
+Stats: 0:14:34 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.50% done
+Current sending rates: 1.35 packets / s, 63.14 bytes / s.
+Stats: 0:14:38 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.50% done
+Current sending rates: 1.57 packets / s, 57.73 bytes / s.
+Stats: 0:15:54 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.55% done
+Current sending rates: 2.11 packets / s, 104.04 bytes / s.
+Stats: 0:16:41 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.58% done
+Current sending rates: 0.95 packets / s, 40.16 bytes / s.
+Stats: 0:16:43 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.58% done
+Current sending rates: 1.41 packets / s, 46.64 bytes / s.
+Stats: 0:23:52 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.84% done
+Current sending rates: 2.59 packets / s, 97.56 bytes / s.
+Stats: 0:24:07 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.85% done
+Current sending rates: 1.98 packets / s, 88.77 bytes / s.
+Stats: 0:24:08 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.85% done
+Current sending rates: 1.92 packets / s, 88.79 bytes / s.
+Stats: 0:24:08 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.86% done
+Current sending rates: 1.86 packets / s, 106.58 bytes / s.
+Stats: 0:24:08 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.86% done
+Current sending rates: 2.19 packets / s, 129.35 bytes / s.
+Stats: 0:24:08 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.86% done
+Current sending rates: 2.49 packets / s, 135.01 bytes / s.
+Stats: 0:24:09 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.86% done
+Current sending rates: 2.64 packets / s, 123.76 bytes / s.
+Stats: 0:24:09 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.86% done
+Current sending rates: 2.53 packets / s, 113.88 bytes / s.
+Stats: 0:24:10 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.86% done
+Current sending rates: 2.42 packets / s, 102.93 bytes / s.
+Stats: 0:24:11 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.86% done
+Current sending rates: 2.29 packets / s, 93.49 bytes / s.
+Stats: 0:24:11 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.86% done
+Current sending rates: 2.17 packets / s, 87.22 bytes / s.
+Stats: 0:24:12 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.86% done
+Current sending rates: 2.11 packets / s, 81.71 bytes / s.
+Stats: 0:24:12 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.86% done
+Current sending rates: 2.06 packets / s, 79.40 bytes / s.
+Stats: 0:24:13 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.86% done
+Current sending rates: 2.07 packets / s, 77.31 bytes / s.
+Stats: 0:24:13 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.86% done
+Current sending rates: 2.08 packets / s, 74.38 bytes / s.
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-09-03 04:39 EDT
+Stats: 0:09:18 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.26% done
+Stats: 0:12:33 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.42% done
+Stats: 0:21:13 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.82% done
+Stats: 0:21:13 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.82% done
+Stats: 0:21:13 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.82% done
+Stats: 0:21:14 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.82% done
+Stats: 0:21:14 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.82% done
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-09-03 05:02 EDT
+Stats: 0:14:31 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.42% done
+Stats: 0:27:06 elapsed; 7 hosts completed (128 up), 128 undergoing UDP Scan
+UDP Scan Timing: About 0.83% done

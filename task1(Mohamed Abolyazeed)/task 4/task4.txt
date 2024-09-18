@@ -1,0 +1,116 @@
+Expedia Group 
+
+	Name Servers
+		DNS1.P09.NSONE.NET
+		DNS2.P09.NSONE.NET
+		DNS3.P09.NSONE.NET
+		DNS4.P09.NSONE.NET
+		PDNS1.ULTRADNS.NET
+		PDNS2.ULTRADNS.NET
+		PDNS3.ULTRADNS.ORG
+		PDNS4.ULTRADNS.ORG
+		PDNS5.ULTRADNS.INFO
+		PDNS6.ULTRADNS.CO.UK
+
+
+	Operating System
+		Linux
+		Windows
+		Android
+		ios
+
+	Registrant Organization
+		Expedia
+
+	Email Addresses
+		domains@expedia.com
+		admin@internationaladmin.com
+		oss@expediagroup.com
+		tocopyrightcomplaints@expediagroup.com
+		trademarkcomplaints@expediagroup.com
+		attrademarkcomplaints@expediagroup.com
+		@expediagroup.com
+		jimccoy@expediagroup.com
+		tgregoire@expediagroup.com
+		maniksharma@expediagroup.com
+		glebiller@expediagroup.com
+		jcarse@expediagroup.com
+		v-vthangaswamy@expediagroup.com
+		oss@expediagroup.com
+		dgorst@expediagroup.com
+
+	Domains
+	expediagroup.com
+	careers.expediagroup.com
+	opensource.expediagroup.com
+	careers.expediagroup.com/jobs/
+	status.developers.expediagroup.com
+	careers.expediagroup.com/blog/
+	legal.expediagroup.com/privacy_statement
+	legal.expediagroup.com/cookies_statements
+	careers.expediagroup.com/locations/
+	brand.expediagroup.com
+	partner.expediagroup.com/en-us
+	partner.expediagroup.com/en-us/log-in
+	lifeatexpediagroup.com/
+	legal.expediagroup.com/
+	ir.expediagroup.com
+	partner.expediagroup.com
+	welcome.expediagroup.com
+	adsportal.expediagroup.com/
+	agentforms.expediagroup.com/extenuatingcircumstance/s/
+	apis.expediagroup.com/
+	developers.expediagroup.com/docs
+	travelerforms.expediagroup.com/extenuatingcircumstance/s/
+	test.apis.expediagroup.com/
+	travelerformsint.expediagroup.com/extenuatingcircumstance/s/
+	affiliates.expediagroup.com/en-us/home
+	expediagroup.com/Ajax/DataUrl/Excluded/API/	
+
+	Social Media
+		https://www.linkedin.com/company/expedia/?originalSubdomain=eg
+		https://www.instagram.com/expediagroup/
+		https://www.facebook.com/expedia.group/
+		https://x.com/ExpediaGroup
+		https://github.com/ExpediaGroup
+
+	Comments
+		501-1000 employe
+		cloud base
+
+	adreess
+		Seattle
+		Washington
+		United States
+		Brazil
+
+	Services
+		Internet service
+
+	System Numbers
+		AS13335
+		AS14618
+		AS15169
+		AS16509
+		AS16625
+		AS209242
+		AS20940
+		AS22612
+		AS23352
+		AS26347
+		AS36351
+		AS37153
+		AS396982
+		AS40021
+		AS46606
+		AS47583
+		AS51167
+		AS58683
+		AS60068
+		AS62563
+		AS8560
+	
+	phone num
+		+1 425 679 7200
+		+1 425 679 7251
+		+1 888 780 2723
