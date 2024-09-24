@@ -1,0 +1,17 @@
+Do Recon "Information Gathering" In This Domain "
+https://www.expediagroup.com/&quot; Using These Tools :
+
+- Google dorks
+- GHDB
+- OSINT Framework
+- theHarvester
+- whatWeb
+- shodan
+- Whois
+- crunchbase
+- wayback 
+
+Collect
+All Possible Information You Can Get From This Tools , And Then Sort
+These Data And Filter It Using Bash Scripting "Search How To Sort ,
+Filter And Customize These Data Then Save The Data In A File
