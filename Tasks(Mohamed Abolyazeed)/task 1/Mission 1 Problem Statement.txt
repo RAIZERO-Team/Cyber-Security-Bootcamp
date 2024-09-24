@@ -1,0 +1,6 @@
+First Task Of Linux
+-----------------------------
+- Create An Account In Your Linux System
+- Add This Account Into Sudoers File
+- Then Go To /etc/sudoers And Take Screenshot From It
+- Create PDF File With All Previous Steps And Upload It Here , And The Name Of The File , Is Your Name

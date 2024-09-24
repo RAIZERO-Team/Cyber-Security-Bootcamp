@@ -1,0 +1,3 @@
+- Take the output from the previous task "Task04 About Bash In Recon" , And then work on the domains and the subdomains which you collect , And use Nmap Tool on them and collect the output in one file and then use the Bash Scripting To filter and order the output , And save the final output in a file
+
+- Take Screen From Your Bash Code , And screen from the final output "all your output after apply the bash code on it"
