@@ -118,12 +118,33 @@ Once the user has a JWT token, they can use this token in the Authorization head
 Authorization: Bearer <JWT_TOKEN>
 ```
 
-## Common JWT Libraries
+# Common JWT Libraries
 
-- **JavaScript**: jsonwebtoken
-- **Python**: PyJWT
-- **Java**: jjwt
-- **Ruby**: ruby-jwt
+Explore the most popular JWT libraries for different programming languages. Click on each link to learn more about their usage and documentation:
+
+## JavaScript
+
+- **Library**: [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+- **Description**: A simple and easy-to-use JWT library for Node.js, widely used for secure token signing and verification.
+
+## Python
+
+- **Library**: [PyJWT](https://pyjwt.readthedocs.io/en/stable/)
+- **Description**: A Python library that allows you to work with JSON Web Tokens (JWT). It supports both encoding and decoding JWTs.
+
+## Java
+
+- **Library**: [jjwt](https://github.com/jwtk/jjwt)
+- **Description**: A popular Java library for working with JSON Web Tokens. It allows signing, parsing, and validation of JWTs with ease.
+
+## Ruby
+
+- **Library**: [ruby-jwt](https://github.com/jwt/ruby-jwt)
+- **Description**: A simple Ruby gem for encoding and decoding JWTs, providing an easy-to-use interface for secure authentication.
+
+---
+
+> **Note:** Make sure to follow the respective documentation for each library to understand its full capabilities and security practices.
 
 ## Conclusion
 
