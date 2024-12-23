@@ -1,7 +1,7 @@
 # Team Tasks for Vulnerability Research
 
 ## Belal Hamed
-- **SQL Injection (sqlBind):** Research and document how SQL injection attacks occur, prevention methods, and examples.
+- **SQL Injection (sqlBlind):** Research and document how SQL injection attacks occur, prevention methods, and examples.
 - **Cross-Site Scripting (XSS):** Explore types of XSS attacks, real-world cases, and mitigation techniques.
 - **File Upload Vulnerabilities:** Understand risks in file upload functionality and best practices to secure it.
 
