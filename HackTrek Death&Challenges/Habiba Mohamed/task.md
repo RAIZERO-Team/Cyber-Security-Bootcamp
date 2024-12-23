@@ -4,20 +4,21 @@
 
 Network security is essential in identifying and mitigating vulnerabilities. Below are some powerful tools used for penetration testing and securing networks:
 
+---
 ### **1. Metasploit**
 
 - **Function**: Develop and execute exploit code for discovering vulnerabilities and exploiting them.
 - **Category**: Exploitation Framework
 - **Use case**: Penetration testing, vulnerability exploitation, post-exploitation.
 - **Key Feature**: Automates many stages of an attack, including scanning, exploiting, and gaining access.
-
+---
 ### **2. Wireshark**
 
 - **Function**: Real-time network traffic analyzer that captures and inspects packets.
 - **Category**: Packet Analyzer
 - **Use case**: Network traffic analysis, identifying network issues, monitoring for suspicious activity.
 - **Key Feature**: Detailed packet inspection, supports a wide range of protocols.
-
+---
 ### **3. Hydra**
 
 - **Function**: A fast and flexible tool to crack passwords for network services using brute-force or dictionary-based methods.
@@ -31,7 +32,7 @@ Network security is essential in identifying and mitigating vulnerabilities. Bel
 - **Category**: Network Discovery
 - **Use case**: Identifying devices and hosts within a network, especially in local or isolated networks.
 - **Key Feature**: Works well in environments with dynamic IPs and hidden devices.
-
+---
 ### **5. TheHarvester**
 
 - **Function**: A tool for gathering email addresses, subdomains, and other public information from search engines and social media platforms.
