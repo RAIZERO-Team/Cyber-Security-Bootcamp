@@ -25,7 +25,7 @@ Each layer is responsible for specific functions and passes data between itself 
 - **Devices:** Hubs, repeaters, cables.
 - **Data Transferred:** **Bits**
 
-![Physical Layer](./Photo/WhatsApp Image 2024-12-24 at 3.49.26 AM)  
+![Physical Layer](./Photo/WhatsApp Image 2024-12-24 at 3.49.26 AM.jpeg)  
 _Example: Ethernet cables, Wi-Fi signals._
 
 ---
