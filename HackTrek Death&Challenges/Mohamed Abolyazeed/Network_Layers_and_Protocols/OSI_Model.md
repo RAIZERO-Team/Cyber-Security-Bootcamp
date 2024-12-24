@@ -25,11 +25,11 @@ Each layer is responsible for specific functions and passes data between itself 
 - **Devices:** Hubs, repeaters, cables.
 - **Data Transferred:** **Bits**
 
-```
+
 ![Physical Layer](Photo/Physical.jpeg)
 ```
 _This layer deals with the physical transmission of data, such as using Ethernet cables or Wi-Fi signals._
-
+```
 ---
 
 ## Layer 2: Data Link Layer
