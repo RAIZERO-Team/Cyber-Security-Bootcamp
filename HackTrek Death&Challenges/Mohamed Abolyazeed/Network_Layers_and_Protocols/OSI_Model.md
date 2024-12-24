@@ -14,8 +14,11 @@ The OSI model consists of **7 layers**:
 6. **Presentation Layer**
 7. **Application Layer**
 
-Each layer is responsible for specific functions and passes data between itself and adjacent layers. This model helps network professionals troubleshoot problems by isolating issues layer by layer.
 
+![Physical Layer](Photo/OSIModel.jpeg)
+```
+Each layer is responsible for specific functions and passes data between itself and adjacent layers. This model helps network professionals troubleshoot problems by isolating issues layer by layer.
+```
 ---
 
 ## Layer 1: Physical Layer
