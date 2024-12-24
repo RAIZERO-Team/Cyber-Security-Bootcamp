@@ -37,7 +37,7 @@ _Example: Ethernet cables, Wi-Fi signals._
 - **Devices:** Switches, NICs, MAC addresses.
 - **Data Transferred:** **Frames**
 
-![Data Link Layer](path_to_image)  
+![Data Link Layer](Photo/Data.jpeg)
 _The Data Link Layer ensures reliable data transfer within the same network._
 
 ---
@@ -49,7 +49,7 @@ _The Data Link Layer ensures reliable data transfer within the same network._
 - **Devices:** Routers.
 - **Data Transferred:** **Packets**
 
-![Network Layer](path_to_image)  
+![Network Layer](Photo/Network.jpeg)
 _Example: Routers direct data packets across the network using IP addresses._
 
 ---
@@ -61,7 +61,7 @@ _Example: Routers direct data packets across the network using IP addresses._
 - **Devices:** Firewalls, routers.
 - **Data Transferred:** **Segments**
 
-![Transport Layer](path_to_image)  
+![Transport Layer](Photo/Transport.jpeg) 
 _Example: TCP and UDP protocols are used for end-to-end communication._
 
 ---
@@ -73,7 +73,7 @@ _Example: TCP and UDP protocols are used for end-to-end communication._
 - **Devices:** Firewalls.
 - **Data Transferred:** **Session data**
 
-![Session Layer](path_to_image)  
+![Session Layer](Photo/Session.jpeg) 
 _Manages sessions between two communicating devices._
 
 ---
@@ -85,7 +85,7 @@ _Manages sessions between two communicating devices._
 - **Devices:** None specific.
 - **Data Transferred:** **Data formats (encrypted, compressed)**
 
-![Presentation Layer](path_to_image)  
+![Presentation Layer](Photo/Presentation.jpeg)  
 _Handles encryption and compression for secure data transfer._
 
 ---
@@ -97,7 +97,7 @@ _Handles encryption and compression for secure data transfer._
 - **Devices:** PCs, Firewalls, IDS.
 - **Data Transferred:** **User data**
 
-![Application Layer](path_to_image)  
+![Application Layer](Photo/Application.jpeg)    
 _Example: Email clients and web browsers operate at the Application Layer._
 
 ---
