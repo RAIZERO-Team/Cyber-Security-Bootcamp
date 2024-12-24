@@ -2,17 +2,17 @@
 
 The **Open Systems Interconnection (OSI)** model is a conceptual framework that standardizes the functions of a communication system into seven layers. These layers define how data is transmitted and received over a network.
 
-## Layers of the OSI Model
+## Layers of the `OSI Model`
 
 The OSI model consists of **7 layers**:
 
-1. **Physical Layer**
-2. **Data Link Layer**
-3. **Network Layer**
-4. **Transport Layer**
-5. **Session Layer**
-6. **Presentation Layer**
-7. **Application Layer**
+1. ``Physical Layer``
+2. ``Data Link Layer``
+3. ``Network Layer``
+4. ``Transport Layer``
+5. ``Session Layer``
+6. ``Presentation Layer``
+7. ``Application Layer``
 
 
 ![Physical Layer](Photo/OSIModel.jpeg)
@@ -21,7 +21,7 @@ Each layer is responsible for specific functions and passes data between itself 
 ```
 ---
 
-## Layer 1: Physical Layer
+## Layer 1: ``Physical Layer``
 
 - **Function:** Transmits raw bits over a physical medium, such as cables or wireless signals.
 - **Examples:** Ethernet cables, Wi-Fi signals.
@@ -35,7 +35,7 @@ _This layer deals with the physical transmission of data, such as using Ethernet
 ```
 ---
 
-## Layer 2: Data Link Layer
+## Layer 2: ``Data Link Layer``
 
 - **Function:** Ensures error-free transfer of data between devices on the same network, using MAC addresses.
 - **Examples:** NICs (Network Interface Cards), switches.
@@ -48,7 +48,7 @@ _The Data Link Layer ensures reliable data transfer within the same network usin
 ```
 ---
 
-## Layer 3: Network Layer
+## Layer 3: ``Network Layer``
 
 - **Function:** Handles routing of data across networks using logical addresses like IP addresses.
 - **Examples:** Routers, IP addresses, NAT, ARP.
@@ -61,7 +61,7 @@ _The Network Layer uses IP addresses to route data packets across different netw
 ```
 ---
 
-## Layer 4: Transport Layer
+## Layer 4: ``Transport Layer``
 
 - **Function:** Ensures end-to-end communication by segmenting data and providing flow control. It uses protocols like TCP and UDP.
 - **Examples:** TCP, UDP.
@@ -74,7 +74,7 @@ _The Transport Layer manages data segments and ensures reliable communication th
 ```
 ---
 
-## Layer 5: Session Layer
+## Layer 5: ``Session Layer``
 
 - **Function:** Manages sessions between applications, ensuring data flows uninterrupted and correctly sequenced.
 - **Examples:** Session ID, port numbers, session management.
@@ -87,7 +87,7 @@ _The Session Layer ensures proper management of communication sessions between d
 ```
 ---
 
-## Layer 6: Presentation Layer
+## Layer 6: ``Presentation Layer``
 
 - **Function:** Ensures data is in a format the receiving application can understand, including encryption and compression.
 - **Examples:** SSL/TLS, data encryption.
@@ -100,7 +100,7 @@ _The Presentation Layer handles encryption and compression, ensuring secure data
 ```
 ---
 
-## Layer 7: Application Layer
+## Layer 7: ``Application Layer``
 
 - **Function:** The interface for end-users, where network services and applications interact.
 - **Examples:** Web browsers, email clients, APIs.
