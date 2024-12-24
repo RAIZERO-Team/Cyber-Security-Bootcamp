@@ -4,7 +4,7 @@ The **Open Systems Interconnection (OSI)** model is a conceptual framework that 
 
 ## Layers of the `OSI Model`
 
-The OSI model consists of **7 layers**:
+The ``OSI model`` consists of **7 layers**:
 
 1. ``Physical Layer``
 2. ``Data Link Layer``
