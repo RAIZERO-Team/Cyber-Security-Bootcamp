@@ -26,7 +26,7 @@ Each layer is responsible for specific functions and passes data between itself 
 - **Data Transferred:** **Bits**
 
 ![Physical Layer](Photo/Physical.jpeg)
-_Example: Ethernet cables, Wi-Fi signals._
+_This layer deals with the physical transmission of data, such as using Ethernet cables or Wi-Fi signals._
 
 ---
 
@@ -38,7 +38,7 @@ _Example: Ethernet cables, Wi-Fi signals._
 - **Data Transferred:** **Frames**
 
 ![Data Link Layer](Photo/Data.jpeg)
-_The Data Link Layer ensures reliable data transfer within the same network._
+_The Data Link Layer ensures reliable data transfer within the same network using MAC addresses._
 
 ---
 
@@ -50,7 +50,7 @@ _The Data Link Layer ensures reliable data transfer within the same network._
 - **Data Transferred:** **Packets**
 
 ![Network Layer](Photo/Network.jpeg)
-_Example: Routers direct data packets across the network using IP addresses._
+_The Network Layer uses IP addresses to route data packets across different networks._
 
 ---
 
@@ -61,8 +61,8 @@ _Example: Routers direct data packets across the network using IP addresses._
 - **Devices:** Firewalls, routers.
 - **Data Transferred:** **Segments**
 
-![Transport Layer](Photo/Transport.jpeg) 
-_Example: TCP and UDP protocols are used for end-to-end communication._
+![Transport Layer](Photo/Transport.jpeg)
+_The Transport Layer manages data segments and ensures reliable communication through protocols like TCP and UDP._
 
 ---
 
@@ -73,8 +73,8 @@ _Example: TCP and UDP protocols are used for end-to-end communication._
 - **Devices:** Firewalls.
 - **Data Transferred:** **Session data**
 
-![Session Layer](Photo/Session.jpeg) 
-_Manages sessions between two communicating devices._
+![Session Layer](Photo/Session.jpeg)
+_The Session Layer ensures proper management of communication sessions between devices._
 
 ---
 
@@ -85,8 +85,8 @@ _Manages sessions between two communicating devices._
 - **Devices:** None specific.
 - **Data Transferred:** **Data formats (encrypted, compressed)**
 
-![Presentation Layer](Photo/Presentation.jpeg)  
-_Handles encryption and compression for secure data transfer._
+![Presentation Layer](Photo/Presentation.jpeg)
+_The Presentation Layer handles encryption and compression, ensuring secure data transfer._
 
 ---
 
@@ -97,8 +97,8 @@ _Handles encryption and compression for secure data transfer._
 - **Devices:** PCs, Firewalls, IDS.
 - **Data Transferred:** **User data**
 
-![Application Layer](Photo/Application.jpeg)    
-_Example: Email clients and web browsers operate at the Application Layer._
+![Application Layer](Photo/Application.jpeg)
+_The Application Layer is where users interact with network services like web browsers and email clients._
 
 ---
 
@@ -126,7 +126,4 @@ _Example: Email clients and web browsers operate at the Application Layer._
 ### **Summary of the OSI Model**
 
 The **OSI Model** provides a clear framework for understanding how data travels from one device to another, passing through seven layers, each responsible for a specific task. While the OSI model is not directly implemented in real-world networks, it helps engineers and IT professionals troubleshoot network issues by identifying the problematic layer.
-
----
-
 
