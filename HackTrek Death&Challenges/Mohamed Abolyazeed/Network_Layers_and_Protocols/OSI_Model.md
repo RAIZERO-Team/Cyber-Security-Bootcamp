@@ -40,8 +40,9 @@ _This layer deals with the physical transmission of data, such as using Ethernet
 - **Data Transferred:** **Frames**
 
 ![Data Link Layer](Photo/Data.jpeg)
+```
 _The Data Link Layer ensures reliable data transfer within the same network using MAC addresses._
-
+```
 ---
 
 ## Layer 3: Network Layer
@@ -52,8 +53,9 @@ _The Data Link Layer ensures reliable data transfer within the same network usin
 - **Data Transferred:** **Packets**
 
 ![Network Layer](Photo/Network.jpeg)
+```
 _The Network Layer uses IP addresses to route data packets across different networks._
-
+```
 ---
 
 ## Layer 4: Transport Layer
@@ -64,8 +66,9 @@ _The Network Layer uses IP addresses to route data packets across different netw
 - **Data Transferred:** **Segments**
 
 ![Transport Layer](Photo/Transport.jpeg)
+```
 _The Transport Layer manages data segments and ensures reliable communication through protocols like TCP and UDP._
-
+```
 ---
 
 ## Layer 5: Session Layer
@@ -76,8 +79,9 @@ _The Transport Layer manages data segments and ensures reliable communication th
 - **Data Transferred:** **Session data**
 
 ![Session Layer](Photo/Session.jpeg)
+```
 _The Session Layer ensures proper management of communication sessions between devices._
-
+```
 ---
 
 ## Layer 6: Presentation Layer
@@ -88,8 +92,9 @@ _The Session Layer ensures proper management of communication sessions between d
 - **Data Transferred:** **Data formats (encrypted, compressed)**
 
 ![Presentation Layer](Photo/Presentation.jpeg)
+```
 _The Presentation Layer handles encryption and compression, ensuring secure data transfer._
-
+```
 ---
 
 ## Layer 7: Application Layer
@@ -100,8 +105,9 @@ _The Presentation Layer handles encryption and compression, ensuring secure data
 - **Data Transferred:** **User data**
 
 ![Application Layer](Photo/Application.jpeg)
+```
 _The Application Layer is where users interact with network services like web browsers and email clients._
-
+```
 ---
 
 ## OSI Model Layers Overview
