@@ -2,26 +2,26 @@
 
 The **Open Systems Interconnection (OSI)** model is a conceptual framework that standardizes the functions of a communication system into seven layers. These layers define how data is transmitted and received over a network.
 
-## Layers of the `OSI Model`
+## Layers of the OSI Model
 
-The ``OSI model`` consists of **7 layers**:
+The OSI model consists of **7 layers**:
 
-1. ``Physical Layer``
-2. ``Data Link Layer``
-3. ``Network Layer``
-4. ``Transport Layer``
-5. ``Session Layer``
-6. ``Presentation Layer``
-7. ``Application Layer``
+1. **Physical Layer**
+2. **Data Link Layer**
+3. **Network Layer**
+4. **Transport Layer**
+5. **Session Layer**
+6. **Presentation Layer**
+7. **Application Layer**
 
 
-![Physical Layer](Photo/OSIModel.jpeg)
+![Physical Layer](Photo/OSI.jpg)
 ```
 Each layer is responsible for specific functions and passes data between itself and adjacent layers. This model helps network professionals troubleshoot problems by isolating issues layer by layer.
 ```
 ---
 
-## Layer 1: ``Physical Layer``
+## Layer 1: Physical Layer
 
 - **Function:** Transmits raw bits over a physical medium, such as cables or wireless signals.
 - **Examples:** Ethernet cables, Wi-Fi signals.
@@ -29,78 +29,78 @@ Each layer is responsible for specific functions and passes data between itself 
 - **Data Transferred:** **Bits**
 
 
-![Physical Layer](Photo/Physical.jpeg)
+![Physical Layer](Photo/Physical.jpg)
 ```
 _This layer deals with the physical transmission of data, such as using Ethernet cables or Wi-Fi signals._
 ```
 ---
 
-## Layer 2: ``Data Link Layer``
+## Layer 2: Data Link Layer
 
 - **Function:** Ensures error-free transfer of data between devices on the same network, using MAC addresses.
 - **Examples:** NICs (Network Interface Cards), switches.
 - **Devices:** Switches, NICs, MAC addresses.
 - **Data Transferred:** **Frames**
 
-![Data Link Layer](Photo/Data.jpeg)
+![Data Link Layer](Photo/Data.jpg)
 ```
 _The Data Link Layer ensures reliable data transfer within the same network using MAC addresses._
 ```
 ---
 
-## Layer 3: ``Network Layer``
+## Layer 3: Network Layer
 
 - **Function:** Handles routing of data across networks using logical addresses like IP addresses.
 - **Examples:** Routers, IP addresses, NAT, ARP.
 - **Devices:** Routers.
 - **Data Transferred:** **Packets**
 
-![Network Layer](Photo/Network.jpeg)
+![Network Layer](Photo/Network.jpg)
 ```
 _The Network Layer uses IP addresses to route data packets across different networks._
 ```
 ---
 
-## Layer 4: ``Transport Layer``
+## Layer 4: Transport Layer
 
 - **Function:** Ensures end-to-end communication by segmenting data and providing flow control. It uses protocols like TCP and UDP.
 - **Examples:** TCP, UDP.
 - **Devices:** Firewalls, routers.
 - **Data Transferred:** **Segments**
 
-![Transport Layer](Photo/Transport.jpeg)
+![Transport Layer](Photo/transport.jpg)
 ```
 _The Transport Layer manages data segments and ensures reliable communication through protocols like TCP and UDP._
 ```
 ---
 
-## Layer 5: ``Session Layer``
+## Layer 5: Session Layer
 
 - **Function:** Manages sessions between applications, ensuring data flows uninterrupted and correctly sequenced.
 - **Examples:** Session ID, port numbers, session management.
 - **Devices:** Firewalls.
 - **Data Transferred:** **Session data**
 
-![Session Layer](Photo/Session.jpeg)
+![Session Layer](Photo/Session.jpg)
 ```
 _The Session Layer ensures proper management of communication sessions between devices._
 ```
 ---
 
-## Layer 6: ``Presentation Layer``
+## Layer 6: Presentation Layer
 
 - **Function:** Ensures data is in a format the receiving application can understand, including encryption and compression.
 - **Examples:** SSL/TLS, data encryption.
 - **Devices:** None specific.
 - **Data Transferred:** **Data formats (encrypted, compressed)**
 
-![Presentation Layer](Photo/Presentation.jpeg)
+![Presentation Layer](Photo/presentation.jpg)
 ```
 _The Presentation Layer handles encryption and compression, ensuring secure data transfer._
 ```
 ---
 
-## Layer 7: ``Application Layer``
+## Layer 7: Application Layer
 
 - **Function:** The interface for end-users, where network services and applications interact.
 - **Examples:** Web browsers, email clients, APIs.
