@@ -3,7 +3,7 @@
 ## Kali and Target IPs
 
 - **Kali IP**: `192.168.1.8`
-- **Target IP**: `192.168.1.10`
+- **Target IP**: `192.168.1.9`
 
 ### Running OS
 - **Operating System**: Linux 2.4.X (2.4.9 - 2.4.18, likely embedded)
@@ -32,7 +32,7 @@
 ```plaintext
 # Nmap 7.94SVN scan initiated Tue Oct 8 14:26:42 2024
 
-Nmap scan report for 192.168.1.10
+Nmap scan report for 192.168.1.9
 Host is up (0.0017s latency).
 Not shown: 65529 closed tcp ports (conn-refused)
 
@@ -95,7 +95,7 @@ Host script results:
 ### Port Scanning (Enum)
 1. Performed detailed scan using:
    ```bash
-   /usr/lib/nmap/nmap -p- -sV -sT -sC -O -oN ./Desktop/CTFs/Kioptrix_Level_1/NmapResult.txt 192.168.1.10
+   /usr/lib/nmap/nmap -p- -sV -sT -sC -O -oN ./Desktop/CTFs/Kioptrix_Level_1/NmapResult.txt 192.168.1.9
    ```
 
 2. Enumerated key services including Samba, HTTP, and SSH.
