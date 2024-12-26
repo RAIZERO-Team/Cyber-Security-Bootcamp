@@ -1,4 +1,4 @@
-# 🏔️ Moria CTF: Journey Through the Digital Depths of Khazad-dûm
+# 🏔️ Moria CTF
 
 ```ascii
     /\    /\    /\      Welcome to      /\    /\    /\
@@ -161,7 +161,7 @@ graph TD
 </details>
 
 ### 🛠️ Password Cracking
-![Hash Cracking](media/HashCrackingimage12.png)
+![Hash Cracking](media/HashCracking.png)
 
 <details>
 <summary>🗝️ Cracked Passwords</summary>
