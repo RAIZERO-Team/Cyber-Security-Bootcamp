@@ -14,15 +14,15 @@
 <details>
 <summary>Click to expand</summary>
 
-- [Overview](#-overview)
-- [Target Information](#-target-information)
-- [Phase 1: Reconnaissance](#-phase-1-reconnaissance)
-- [Phase 2: Enumeration](#-phase-2-enumeration)
-- [Phase 3: Credential Analysis](#-phase-3-credential-analysis)
-- [Phase 4: Exploitation](#-phase-4-exploitation)
-- [Tools & Techniques](#-tools--techniques)
-- [Defense Recommendations](#-defense-recommendations)
-- [Conclusion](#-conclusion)
+- [Overview](#overview)
+- [Target Information](#target-information)
+- [Phase 1: Reconnaissance](#phase-1-reconnaissance)
+- [Phase 2: Enumeration](#phase-2-enumeration)
+- [Phase 3: Credential Analysis](#phase-3-credential-analysis)
+- [Phase 4: Exploitation](#phase-4-exploitation)
+- [Tools & Techniques](#tools--techniques)
+- [Defense Recommendations](#defense-recommendations)
+- [Conclusion](#conclusion)
 </details>
 
 ---
@@ -249,16 +249,10 @@ mindmap
 - Proper documentation saves lives (and time)
 
 ---
-
-<div align="center">
-
+                        
 ```ascii
-   /\                      Mission                    /\
-  /  \                   Accomplished                /  \
- /    \                    👑 👑 👑                 /    \
+     /\      /\      /\      Mission          /\       /\       /\
+    /  \    /  \    /  \   Accomplished      /  \     /  \     /  \
+   /    \  /    \  /    \     👑 👑 👑       /     \  /    \   /    \
+  /      \/      \/      \_________________/       \/      \ /      \
 ```
-
-*Created with 🖤 by SecurityResearcher*
-*For educational purposes only*
-
-</div>
