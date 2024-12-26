@@ -2,8 +2,8 @@
 
 ```ascii
     /\    /\    /\      Welcome to      /\    /\    /\
-   /  \  /  \  /  \     MORIA CTF     /  \  /  \  /  \
-  /    \/    \/    \_________________/    \/    \/    \
+   /  \  /  \  /  \     MORIA CTF      /  \  /  \  /  \
+  /    \/    \/    \__________________/    \/    \/    \
 ```
 
 [![Made with Love](https://img.shields.io/badge/Made%20with-🖤-black.svg)]()
