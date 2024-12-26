@@ -10,22 +10,6 @@
 [![Status](https://img.shields.io/badge/Status-Completed-success.svg)]()
 [![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow.svg)]()
 
-## 📚 Table of Contents
-<details>
-<summary>Click to expand</summary>
-
-- [Overview](#overview)
-- [Target Information](#target-information)
-- [Phase 1: Reconnaissance](#phase-1:-reconnaissance)
-- [Phase 2: Enumeration](#phase-2:-enumeration)
-- [Phase 3: Credential Analysis](#phase-3:-credential-analysis)
-- [Phase 4: Exploitation](#phase-4:-exploitation)
-- [Tools & Techniques](#tools-&-techniques)
-- [Defense Recommendations](#defense-recommendations)
-- [Conclusion](#conclusion)
-</details>
-
----
 
 ## 🎯 Overview
 > "Not all those who wander are lost, but in this CTF, we're definitely looking for vulnerabilities!"
