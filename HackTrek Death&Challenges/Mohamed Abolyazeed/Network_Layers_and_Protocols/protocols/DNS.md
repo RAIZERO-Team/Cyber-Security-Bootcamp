@@ -73,6 +73,34 @@ DNS is the system responsible for converting domain names like `example.com` int
 
 ---
 
+## DNS Records Components
+
+| **Component** | **Description**                              |
+|---------------|----------------------------------------------|
+| **Type**      | Record type (A, AAAA, CNAME, MX, TXT, etc.)  |
+| **Host**      | Root (@) or subdomain (e.g., www, app, blog) |
+| **Value**     | IP (A, AAAA), Domain (CNAME, ALIAS, MX), etc.|
+| **Priority**  | Used only for MX records                     |
+| **TTL**       | Time to Live - caching duration              |
+
+---
+
+### DNS Record Types 
+
+| **Record Type** | **Description**                                               |
+|-----------------|---------------------------------------------------------------|
+| **A**           | Maps domain to IPv4 address (`example.com => 192.0.2.1`).    |
+| **AAAA**        | Maps domain to IPv6 address (`example.com => ::1`).          |
+| **CNAME**       | Maps domain to another domain (`www.example.com => example.com`). |
+| **ALIAS**       | Like CNAME but can work at the root domain level.            |
+| **TXT**         | Stores arbitrary text data. Used for SPF, verification, etc. |
+| **MX**          | Directs emails to a mail server.                             |
+| **SRV**         | Specifies location for specific services like VoIP.          |
+| **PTR**         | Reverse mapping from IP to domain name.                      |
+| **CAA**         | Specifies authorized certificate authorities.                |
+
+---
+
 # Common DNS Record Types
 
 ## **1. A Record (Address)**
@@ -153,32 +181,4 @@ DNS is the system responsible for converting domain names like `example.com` int
 | **Secondary Server**  | Read-only backup that syncs with the primary server.                  |
 | **Non-Authoritative** | 	Relies on cache or queries authoritative servers; does not hold original zone files.                  |
 | **Cache-Only**        | Resolves queries using cached data; lacks authoritative zone files.  |
-
----
-
-## DNS Records Components
-
-| **Component** | **Description**                              |
-|---------------|----------------------------------------------|
-| **Type**      | Record type (A, AAAA, CNAME, MX, TXT, etc.)  |
-| **Host**      | Root (@) or subdomain (e.g., www, app, blog) |
-| **Value**     | IP (A, AAAA), Domain (CNAME, ALIAS, MX), etc.|
-| **Priority**  | Used only for MX records                     |
-| **TTL**       | Time to Live - caching duration              |
-
----
-
-### DNS Record Types Cheat Sheet
-
-| **Record Type** | **Description**                                               |
-|-----------------|---------------------------------------------------------------|
-| **A**           | Maps domain to IPv4 address (`example.com => 192.0.2.1`).    |
-| **AAAA**        | Maps domain to IPv6 address (`example.com => ::1`).          |
-| **CNAME**       | Maps domain to another domain (`www.example.com => example.com`). |
-| **ALIAS**       | Like CNAME but can work at the root domain level.            |
-| **TXT**         | Stores arbitrary text data. Used for SPF, verification, etc. |
-| **MX**          | Directs emails to a mail server.                             |
-| **SRV**         | Specifies location for specific services like VoIP.          |
-| **PTR**         | Reverse mapping from IP to domain name.                      |
-| **CAA**         | Specifies authorized certificate authorities.                |
 
