@@ -19,12 +19,6 @@ HTTP (Hypertext Transfer Protocol) is the foundation of data communication on th
 ```
 
 ### 🛠️ How HTTP Works:
-```mermaid
-graph LR
-    A[Client/Browser] -->|1. HTTP Request| B[Web Server]
-    B -->|2. Process Request| B
-    B -->|3. HTTP Response| A
-```
 
 ![HTTP Works](media/HTTP-HTTPS/HTTPWork.jpg)
 
