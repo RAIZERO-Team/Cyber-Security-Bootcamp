@@ -1,5 +1,6 @@
 # 🌐 HTTP & HTTPS
 ![HTTP & HTTPS](media/HTTP-HTTPS/HTTP-HTTPS.jpeg)
+![HTTP & HTTPS](media/HTTP-HTTPS/HTTPvsHTTPS.png)
 
 -------------------
 
@@ -25,7 +26,7 @@ graph LR
     B -->|3. HTTP Response| A
 ```
 
-![HTTP Works](media/HTTP-HTTPS/HTTPSWork.png)
+![HTTP Works](media/HTTP-HTTPS/HTTPWork.jpg)
 
 ---
 
@@ -66,7 +67,7 @@ HTTPS (Hypertext Transfer Protocol Secure) is the secure version of HTTP. It enc
 | URL Prefix | http:// | https:// |
 | Certificate | Not required | SSL Certificate required |
 
-![HTTP vs HTTPS](media/HTTPvsHTTPS1.jpg)
+![HTTP vs HTTPS](media/HTTP-HTTPS/HTTPvsHTTPS1.jpg)
 
 # Encryption: HTTP vs. HTTPS
 
@@ -555,4 +556,9 @@ TRACE  🔬 - Debug request path
 
 ## Are there alternatives to HTTPS for better performance?
 > Some alternatives like Facebook’s Zero protocol remove TLS handshake overhead by establishing persistent encrypted connections. However, HTTPS remains the standard for public web traffic needing end-to-end security.
+
+---
+
+# URL Structure
+![URL Structure](media/HTTP-HTTPS/URLStructure.png)
 
