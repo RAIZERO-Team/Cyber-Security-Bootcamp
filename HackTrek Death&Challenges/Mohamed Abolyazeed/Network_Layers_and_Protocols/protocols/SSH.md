@@ -1,15 +1,7 @@
 # 🚀 The Complete SSH Bible
 > *Your ultimate guide to mastering Secure Shell - from basics to advanced techniques*
 
-## 📚 Table of Contents
-1. [What is SSH?](#what-is-ssh)
-2. [The SSH Trilogy](#the-ssh-trilogy)
-3. [Authentication Magic](#authentication-magic)
-4. [File Transfer Suite](#file-transfer-suite)
-5. [Advanced SSH Powers](#advanced-ssh-powers)
-6. [Configuration Mastery](#configuration-mastery)
-7. [Security Fortress](#security-fortress)
-8. [Troubleshooting Guide](#troubleshooting-guide)
+---
 
 ## 🌟 What is SSH?
 
@@ -27,7 +19,13 @@ Key Features:
 - 🔑 Public key authentication
 - 🌐 Secure remote access
 
+![SSH](media/SSH.png)
+
+---
+
 ## 🎭 The SSH Trilogy
+
+![SSH Commands](media/SHHComands.png)
 
 ### 1. SSH Client
 ```bash
