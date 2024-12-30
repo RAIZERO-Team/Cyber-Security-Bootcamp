@@ -1,12 +1,11 @@
 # 🌐 HTTP & HTTPS
-![HTTP & HTTPS](media/HTTP-HTTPS/HTTP-HTTPS.jpeg)
-![HTTP & HTTPS](media/HTTP-HTTPS/HTTPvsHTTPS.png)
-
--------------------
 
 ## 🎯 Protocol Introduction
 ### What is HTTP? 📡
 HTTP (Hypertext Transfer Protocol) is the foundation of data communication on the World Wide Web. Think of it as the messenger that delivers and receives information between web browsers and servers.
+
+![HTTP & HTTPS](media/HTTP-HTTPS/HTTP-HTTPS.jpeg)
+![HTTP & HTTPS](media/HTTP-HTTPS/HTTPvsHTTPS.png)
 
 ### 🔍 Key Points about HTTP:
 ```
