@@ -2,17 +2,97 @@
 
 The **Open Systems Interconnection (OSI)** model is a conceptual framework that standardizes the functions of a communication system into seven layers. These layers define how data is transmitted and received over a network.
 
-## Layers of the OSI Model
+# OSI Model: 7 Layers 
 
-The OSI model consists of **7 layers**:
+The OSI (Open Systems Interconnection) Model consists of **7 layers**, each responsible for specific networking functions, arranged from the lowest to the highest level of abstraction.
 
-1. **Physical Layer**
-2. **Data Link Layer**
-3. **Network Layer**
-4. **Transport Layer**
-5. **Session Layer**
-6. **Presentation Layer**
-7. **Application Layer**
+---
+
+### **1. Physical Layer**
+- **Unit**: Bits (0s and 1s)
+- **Description**:
+  - Converts frames into electrical, optical, or radio signals.
+  - Handles physical medium connections and transmission of raw binary data.
+
+---
+
+### **2. Data Link Layer**
+- **Unit**: Frames
+- **Description**:
+  - Manages direct node-to-node communication.
+  - Ensures data transfer is error-free from one node to another.
+  - **Includes**:
+    - Source MAC Address
+    - Destination MAC Address
+    - Source IP Address
+    - Destination IP Address
+    - Segment
+    - Data
+
+---
+
+### **3. Network Layer**
+- **Unit**: Packets
+- **Description**:
+  - Handles the routing and forwarding of data between devices.
+  - **Includes**:
+    - Source IP Address
+    - Destination IP Address
+    - Segment
+    - Data
+
+---
+
+### **4. Transport Layer**
+- **Unit**: Segment
+- **Description**:
+  - Ensures reliable transmission of data.
+  - Manages error checking, flow control, and data sequencing.
+
+---
+
+### **5. Session Layer**
+- **Unit**: Data
+- **Description**:
+  - Manages and controls connections between applications.
+  - Handles session establishment, maintenance, and termination.
+
+---
+
+### **6. Presentation Layer**
+- **Unit**: Data
+- **Description**:
+  - Translates data into a form understandable by the application layer.
+  - Handles encryption, compression, and data representation.
+
+---
+
+### **7. Application Layer**
+- **Unit**: Data
+- **Description**:
+  - Closest layer to the user.
+  - Provides services for user applications like email, file transfer, and browsing.
+
+---
+
+### Creative OSI Model Visualization
+```plaintext
++--------------------+
+| Application Layer  |
++--------------------+
+| Presentation Layer |
++--------------------+
+| Session Layer      |
++--------------------+
+| Transport Layer    |
++--------------------+
+| Network Layer      |
++--------------------+
+| Data Link Layer    |
++--------------------+
+| Physical Layer     |
++--------------------+
+
 
 
 ![Physical Layer](Photo/OSI.jpg)
