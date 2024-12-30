@@ -1,18 +1,267 @@
-# OSI Reference Model
+# 📡 OSI Model: The 7 Layers 
 
-The **Open Systems Interconnection (OSI)** model is a conceptual framework that standardizes the functions of a communication system into seven layers. These layers define how data is transmitted and received over a network.
+## 🌐 Overview
+The **Open Systems Interconnection (OSI)** model is a conceptual framework that standardizes the functions of a communication system into seven distinct layers, each serving specific networking functions. This hierarchical approach defines how data is transmitted and received over a network.
 
-## Layers of the OSI Model
+---
 
-The OSI model consists of **7 layers**:
+## 🔄 Layer-by-Layer 
 
-1. **Physical Layer**
-2. **Data Link Layer**
-3. **Network Layer**
-4. **Transport Layer**
-5. **Session Layer**
-6. **Presentation Layer**
-7. **Application Layer**
+### 7️⃣ Application Layer
+**Unit**: Data
+#### Key Aspects:
+- 🌐 User interface level
+- 📨 Email services (SMTP)
+- 🔍 Web browsing (HTTP/HTTPS)
+- 📂 File transfers (FTP)
+- 🔒 Network security
+
+---
+
+### 6️⃣ Presentation Layer
+**Unit**: Data
+#### Functions:
+- 🔐 Encryption/Decryption
+- 🗜️ Data compression
+- 🔄 Format conversion
+- 📝 Character encoding
+- 🖼️ Graphics formatting
+
+---
+
+### 5️⃣ Session Layer
+**Unit**: Data
+#### Responsibilities:
+- 🔌 Connection management
+- 🔄 Session handling
+- 🔑 Authentication
+- 🛡️ Authorization
+- ⏯️ Dialog control
+
+---
+
+### 4️⃣ Transport Layer
+**Unit**: Segments
+#### Features:
+- ✅ Error checking
+- 🔄 Flow control
+- 📦 Segmentation
+- 🔢 Sequencing
+- 📊 Congestion control
+
+---
+
+### 3️⃣ Network Layer
+**Unit**: Packets
+#### Components:
+```plaintext
+[Header]
+- Source IP: xxx.xxx.xxx.xxx
+- Destination IP: xxx.xxx.xxx.xxx
+[Segment]
+[Data]
+```
+#### Functions:
+- 🗺️ Routing
+- 📍 Logical addressing
+- 🔄 Path determination
+
+---
+
+### 2️⃣ Data Link Layer
+**Unit**: Frames
+#### Frame Structure:
+```plaintext
+[Header]
+- Source MAC: XX:XX:XX:XX:XX:XX
+- Destination MAC: XX:XX:XX:XX:XX:XX
+- Source IP: xxx.xxx.xxx.xxx
+- Destination IP: xxx.xxx.xxx.xxx
+[Segment]
+[Data]
+[Trailer]
+```
+#### Key Features:
+- 🔍 Error detection
+- 📡 Physical addressing
+- 🔄 Flow control
+
+---
+
+### 1️⃣ Physical Layer
+**Unit**: Bits (0s and 1s)
+#### Characteristics:
+- ⚡ Electrical signals
+- 🔌 Physical connections
+- 📡 Transmission medium
+- 🔢 Binary data handling
+- 💫 Signal conversion
+
+---
+
+## 📊 Data Flow Visualization
+```plaintext
+┌──────────────────────┐
+│   Application (7)    │ ⟺ Data
+├──────────────────────┤
+│   Presentation (6)   │ ⟺ Data
+├──────────────────────┤
+│     Session (5)      │ ⟺ Data
+├──────────────────────┤
+│    Transport (4)     │ ⟺ Segments
+├──────────────────────┤
+│     Network (3)      │ ⟺ Packets
+├──────────────────────┤
+│    Data Link (2)     │ ⟺ Frames
+├──────────────────────┤
+│    Physical (1)      │ ⟺ Bits
+└──────────────────────┘
+```
+
+## 🔄 Data Encapsulation Process
+1. **Application** → Raw Data
+2. **Presentation** → Formatted Data
+3. **Session** → Data + Session Info
+4. **Transport** → Segments
+5. **Network** → Packets
+6. **Data Link** → Frames
+7. **Physical** → Bits
+
+---
+
+## 🛠️ Common Protocols by Layer
+
+## 7️⃣ Application Layer
+- **HTTP/HTTPS**
+  - Web browsing and data transfer
+  - Hypertext Transfer Protocol
+- **FTP/SFTP**
+  - File Transfer Protocol
+  - Secure File Transfer Protocol
+- **SMTP/POP3/IMAP**
+  - Email protocols
+  - Simple Mail Transfer Protocol
+  - Post Office Protocol
+  - Internet Message Access Protocol
+- **DNS**
+  - Domain Name System
+  - Name resolution service
+- **DHCP**
+  - Dynamic Host Configuration Protocol
+  - IP address assignment
+- **SSH**
+  - Secure Shell
+  - Encrypted remote access
+- **Telnet**
+  - Remote access protocol
+- **SNMP**
+  - Simple Network Management Protocol
+  - Network device management
+
+## 6️⃣ Presentation Layer
+- **SSL/TLS**
+  - Secure Sockets Layer
+  - Transport Layer Security
+- **Data Formats**
+  - JPEG, GIF, PNG (Images)
+  - MIDI, MPEG (Multimedia)
+- **Character Encoding**
+  - ASCII
+  - EBCDIC
+- **Data Representation**
+  - XML
+  - JSON
+
+## 5️⃣ Session Layer
+- **NetBIOS**
+  - Network Basic Input/Output System
+- **RPC**
+  - Remote Procedure Call
+- **PAP**
+  - Password Authentication Protocol
+- **SDP**
+  - Session Description Protocol
+- **PPTP**
+  - Point-to-Point Tunneling Protocol
+
+## 4️⃣ Transport Layer
+- **TCP**
+  - Transmission Control Protocol
+  - Connection-oriented
+  - Reliable delivery
+- **UDP**
+  - User Datagram Protocol
+  - Connectionless
+  - Fast delivery
+- **SCTP**
+  - Stream Control Transmission Protocol
+- **SPX**
+  - Sequenced Packet Exchange
+- **DCCP**
+  - Datagram Congestion Control Protocol
+
+## 3️⃣ Network Layer
+- **IPv4/IPv6**
+  - Internet Protocol versions
+- **ICMP**
+  - Internet Control Message Protocol
+  - Error reporting
+- **IGMP**
+  - Internet Group Management Protocol
+- **IPsec**
+  - Internet Protocol Security
+- **Routing Protocols**
+  - OSPF (Open Shortest Path First)
+  - BGP (Border Gateway Protocol)
+  - RIP (Routing Information Protocol)
+
+## 2️⃣ Data Link Layer
+- **Ethernet**
+  - Local area networking
+- **Wi-Fi (802.11)**
+  - Wireless networking
+- **PPP**
+  - Point-to-Point Protocol
+- **HDLC**
+  - High-Level Data Link Control
+- **ATM**
+  - Asynchronous Transfer Mode
+- **Frame Relay**
+  - Data packet switching
+- **L2TP**
+  - Layer 2 Tunneling Protocol
+
+## 1️⃣ Physical Layer
+- **RS-232**
+  - Serial transmission
+- **Ethernet (802.3)**
+  - Physical networking standard
+- **Bluetooth**
+  - Short-range wireless
+- **USB**
+  - Universal Serial Bus
+- **DSL**
+  - Digital Subscriber Line
+- **ISDN**
+  - Integrated Services Digital Network
+- **802.11**
+  - Wi-Fi physical standards
+
+---
+
+## 📊 Quick Reference Table
+
+| Layer | Key Protocols |
+|-------|--------------|
+| Application | HTTP, FTP, SMTP, DNS, DHCP |
+| Presentation | SSL/TLS, JPEG, MIDI, ASCII |
+| Session | NetBIOS, RPC, PAP, SDP |
+| Transport | TCP, UDP, SCTP |
+| Network | IP, ICMP, IGMP, OSPF |
+| Data Link | Ethernet, Wi-Fi, PPP, HDLC |
+| Physical | RS-232, USB, DSL, Bluetooth |
+
+
 
 
 ![Physical Layer](Photo/OSI.jpg)
