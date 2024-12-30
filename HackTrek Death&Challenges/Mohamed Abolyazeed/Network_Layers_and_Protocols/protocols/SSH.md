@@ -19,7 +19,7 @@ Key Features:
 - 🔑 Public key authentication
 - 🌐 Secure remote access
 
-![SSH](media/SSH.jpg)
+![SSH](media/SSH.png)
 
 ---
 
