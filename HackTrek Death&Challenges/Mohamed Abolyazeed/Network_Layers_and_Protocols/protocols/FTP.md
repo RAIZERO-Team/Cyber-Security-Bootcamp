@@ -1,16 +1,9 @@
-# 🔒 The Ultimate Guide to FTP & Secure File Transfer
+# 🔒 FTP & Secure File Transfer
 > *A comprehensive guide to FTP protocols, security implications, and modern file transfer methods*
 
-## 📑 Table of Contents
-1. [FTP Fundamentals](#ftp-fundamentals)
-2. [Connection Methods](#connection-methods)
-3. [Reconnaissance & Enumeration](#reconnaissance--enumeration)
-4. [Attack Vectors](#attack-vectors)
-5. [FTP Commands Reference](#ftp-commands-reference)
-6. [Alternative File Transfer Methods](#alternative-file-transfer-methods)
-7. [Server Setup](#server-setup)
-8. [Security Best Practices](#security-best-practices)
-9. [Modern Alternatives](#modern-alternatives)
+![FTP](media/FTP.jpg)
+
+---
 
 ## 🌐 FTP Fundamentals
 
