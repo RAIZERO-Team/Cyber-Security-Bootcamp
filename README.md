@@ -1,12 +1,12 @@
-# 🛡️ Cybersecurity Bootcamp 
+# 🛡️ Cybersecurity Bootcamp Repository
 
 ![Security Banner](https://i.pinimg.com/736x/e1/1c/24/e11c2441a4463309b5296608337566d9.jpg)
 
-[![CTF Challenges](https://img.shields.io/badge/CTF-Challenges-red.svg)](https://github.com/yourusername/repo)
-[![Web Security](https://img.shields.io/badge/Web-Security-blue.svg)](https://github.com/yourusername/repo)
-[![Network Security](https://img.shields.io/badge/Network-Security-green.svg)](https://github.com/yourusername/repo)
-[![Ethical Hacking](https://img.shields.io/badge/Ethical-Hacking-orange.svg)](https://github.com/yourusername/repo)
-[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CTF Challenges](https://img.shields.io/badge/CTF-Challenges-red.svg)]()
+[![Web Security](https://img.shields.io/badge/Web-Security-blue.svg)]()
+[![Network Security](https://img.shields.io/badge/Network-Security-green.svg)]()
+[![Ethical Hacking](https://img.shields.io/badge/Ethical-Hacking-orange.svg)]()
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)]()
 
 ### 🔐 Your Gateway to Ethical Hacking and Cybersecurity
 ---
@@ -159,4 +159,3 @@ We welcome contributions from the community! Here's how you can help:
 
 
 **Made with ❤️ by the Cybersecurity Community**
-
