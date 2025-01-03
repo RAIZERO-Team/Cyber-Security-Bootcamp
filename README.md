@@ -1,4 +1,4 @@
-# 🛡️ Cybersecurity Bootcamp Repository
+# 🛡️ Cybersecurity Bootcamp 
 
 ![Security Banner](https://i.pinimg.com/736x/e1/1c/24/e11c2441a4463309b5296608337566d9.jpg)
 
